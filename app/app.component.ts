@@ -1,7 +1,19 @@
-import {Component} from "@angular/core";
+import {Component, OnInit} from "@angular/core";
+import {Routes, Router, ROUTER_DIRECTIVES} from "@angular/router";
+import {AboutComponent} from "./components/about";
+import {SplashComponent} from "./components/splash";
 
 @Component({
 	selector: "nm-pallete",
-	templateUrl: "app/templates/splash.html"
+	template: "<router-outlet></router-outlet>",
+	directives: [ROUTER_DIRECTIVES]
 })
-export class NmPallete { }
+
+@Routes([
+	{path: "/about", component: AboutComponent},
+	{path: "/", component: SplashComponent}
+])
+
+export class NmPallete {
+	constructor(private router: Router) {}
+}
