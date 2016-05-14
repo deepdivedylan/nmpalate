@@ -2,85 +2,85 @@
   {
     "name": "Green Lumbre",
     "description": "",
-    "imageUrl": "",
+    "imageUrl": "../img/green-lumbre.jpg",
     "coordinates": {"savory":0.07, "spice": 1, "sweet": 0.07}
   },
   {
     "name": "Green Barker",
     "description": "",
-    "imageUrl": "",
+    "imageUrl": "../img/green-barker.jpg",
     "coordinates": {"savory":0.14, "spice": 0.93, "sweet": 0.14}
   },
   {
     "name": "Green 6-4",
     "description": "",
-    "imageUrl": "",
+    "imageUrl": "../img/green-6-4.jpg",
     "coordinates": {"savory":0.21, "spice": 0.86, "sweet": 0.21}
   },
   {
     "name": "Green Sandia",
     "description": "",
-    "imageUrl": "",
+    "imageUrl": "../img/green-sandia.jpg",
     "coordinates": {"savory":0.29, "spice": 0.79, "sweet": 0.29}
   },
   {
     "name": "Green Espanola",
     "description": "",
-    "imageUrl": "",
+    "imageUrl": "../img/green-espanola.jpg",
     "coordinates": {"savory":0.36, "spice": 0.71, "sweet": 0.36}
   },
   {
     "name": "Green Big Jim",
     "description": "",
-    "imageUrl": "",
+    "imageUrl": "../img/green-big-jim.jpg",
     "coordinates": {"savory":0.50, "spice": 0.50, "sweet": 0.50}
   },
   {
     "name": "Green Joe E. Parker",
     "description": "",
-    "imageUrl": "",
+    "imageUrl": "../img/green-joe-e-parker.jpg",
     "coordinates": {"savory":0.64, "spice": 0.43, "sweet": 0.71}
   },
   {
     "name": "Red Lumbre",
     "description": "",
-    "imageUrl": "",
+    "imageUrl": "../img/red-lumbre.jpg",
     "coordinates": {"savory":0.43, "spice": 0.64, "sweet": 0.43}
   },
   {
     "name": "Red Barker",
     "description": "",
-    "imageUrl": "",
+    "imageUrl": "../img/red-barker.jpg",
     "coordinates": {"savory":0.57, "spice": 0.57, "sweet": 0.57}
   },
   {
     "name": "Red 6-4",
     "description": "",
-    "imageUrl": "",
+    "imageUrl": "../img/red-6-4.jpg",
     "coordinates": {"savory":0.71, "spice": 0.36, "sweet": 0.64}
   },
   {
     "name": "Red Sandia",
     "description": "",
-    "imageUrl": "",
+    "imageUrl": "../img/red-sandia.jpg",
     "coordinates": {"savory":0.79, "spice": 0.29, "sweet": 0.79}
   },
   {
     "name": "Red Espanola",
     "description": "",
-    "imageUrl": "",
+    "imageUrl": "../img/red-espanola.jpg",
     "coordinates": {"savory":0.86, "spice": 0.21, "sweet": 0.86}
   },
   {
     "name": "Red Big Jim",
     "description": "",
-    "imageUrl": "",
+    "imageUrl": "../img/red-big-jim.jpg",
     "coordinates": {"savory":0.93, "spice": 0.14, "sweet": 0.93}
   },
   {
     "name": "Red Joe E. Parker",
     "description": "",
-    "imageUrl": "",
+    "imageUrl": "../img/red-joe-e-parker.jpg",
     "coordinates": {"savory":1, "spice": 0.07, "sweet": 1}
   }
 ]
