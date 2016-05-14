@@ -1,73 +1,73 @@
 [{
   "name": "Alien Amber",
   "description": "We have blended eight different types of barley to create this amber ale.  It appeals to the largest segment of craft beer drinkers who enjoy a smooth, malty ale with no hop bitterness.",
-  "imageUrl": "",
+  "imageUrl": "../img/beer/alien-amber.jpg",
   "coordinates": {"savory": 0.75, "sweet": 0.03, "spice": 0.25}
 },
   {
     "name": "Alien Nutbrown",
     "description": "This Nut Brown is brewed with English Ale yeast.  In English tradition, we use only English Fuggle hops, which are low in bitterness and produce a mild floral hop taste.  The complexity of this Nut Brown is created mainly by the Chocolate and Dark Chocolate malted barley. There is a roasted coffee flavor with hints of chocolate and nutty or nutmeg finish on the back of the tongue.   This Nut Brown has the widest spectrum of flavors of any Nut Brown on the market.",
-    "imageUrl": "",
+    "imageUrl": "../img/beer/alien-nutbrown.jpg",
     "coordinates": {"savory": 0.4, "sweet": 0.25, "spice": 0.2}
   },
   {
     "name": "Canteen High Plains Pils (German Pilsner, lager)",
     "description": "This easy-drinking beer is straw-to-golden in color with light-to-medium body or mouth feel, medium malt flavor, medium to high bitterness and low-to-medium hop flavor and aroma.This is our lightest beer available year round, higher in carbonation than most our beers, and filtered to resemble most of the mass-produced lagers that people are familiar with, but with more character.",
-    "imageUrl": "",
+    "imageUrl": "../img/beer/canteen.jpg",
     "coordinates": {"savory": 0.35, "sweet": 0.15, "spice": 0.15}
   },
   {
     "name": "Canteen La Luz Wheat (American Wheat Ale)",
     "description": "Our lightest year-round offering, brewed with 25% wheat malt, which imparts a richer flavor to the beer than your average light lager possesses. An easy-drinking, low-hopped and refreshing beer that even your non-craft beer drinking friends will enjoy.",
-    "imageUrl": "",
+    "imageUrl": "../img/beer/canteen.jpg",
     "coordinates": {"savory": 0.15, "sweet": 0.75, "spice": 0.1}
   },
   {
     "name": "Canteen Pecos Trail Brown Ale (American Brown Ale, ale)",
     "description": "A malt-dominated beer with roasted malt, chocolate, nutty and or toasty flavors. Medium-to-high bitterness with noticeable hop aroma and flavor. Brown to dark brown color. Our brown is the most decorated beer we brew, winning many medals at the GABF and World Beer Cup. It is darker in color and richer in flavor than most brown ales on the market but that’s what makes it stand alone.",
-    "imageUrl": "",
+    "imageUrl": "../img/beer/canteen.jpg",
     "coordinates": {"savory": 0.32, "sweet": 0.38, "spice": 0.12}
   },
   {
     "name": "La Cumbre BEER Lager",
     "description": "Looks like beer . . . Smells like beer . . . Tastes like beer . . . it’s BEER. Our aptly named lager is light in body but substantial enough in flavor to let you know that yes . . . You are drinking beer. Yeah BEER!",
-    "imageUrl": "",
+    "imageUrl": "../img/beer/la-cumbre-beer.jpg",
     "coordinates": {"savory": 0.19, "sweet": 0.6, "spice": 0.05}
   },
   {
     "name": "La Cumbre a Slice Of Hefen",
     "description": "Poured into a 23 oz. Hefe glass, this beer is served mit hefe with a voluminous white head. The aroma is everything we love in the style; clove, banana and vanilla. The body is rich and creamy, yet finishes fairly dry and is as refreshing as any beer you’ll drink here or anywhere else.",
-    "imageUrl": "",
+    "imageUrl": "../img/beer/la-cumbre-a-slice-of-hefen.jpg",
     "coordinates": {"savory": 0.23, "sweet": 0.55, "spice": 0.13}
   },
   {
     "name": "La Cumbre Elevated IPA",
     "description": "did someone ask for hops?",
-    "imageUrl": "",
+    "imageUrl": "../img/beer/la-cumbre-elevated-ipa.jpg",
     "coordinates": {"savory": 0.99, "sweet": 0.0, "spice": 0.66}
   },
   {
     "name": "La Cumbre Red Ryeot",
     "description": "Rich caramel and toasted malts team up with flaked rye and march to the beat of a big but balancing bitterness only to be overtaken by an onslaught of American hop aroma and flavor. You want a tame and subservient, spineless beer that takes orders well and doesn’t challenge anything or anyone? This ain’t it!",
-    "imageUrl": "",
+    "imageUrl": "../img/beer/la-cumbre-red-ryeot.jpg",
     "coordinates": {"savory": 0.3, "sweet": 0.6, "spice": 0.6}
   },
   {
     "name": "La Cumbre Malpais Stout",
     "description": "Brewed with 7 different malts, you should be ready for a full onslaught of creamy stout intensity. Broadly in the style of a Foreign Extra Stout, this is our heaviest and most intense year-round offering.",
-    "imageUrl": "",
+    "imageUrl": "../img/beer/la-cumbre-malpais-stout.jpg",
     "coordinates": {"savory": 0.45, "sweet": 0.5, "spice": 0.03}
   },
   {
     "name": "Marble Oatmeal Stout",
     "description": "Brewed with flaked oats and a blend of three roasted malts, this luxurious stout has a creamy texture with dark notes of espresso and chocolate.",
-    "imageUrl": "",
+    "imageUrl": "../img/beer/marble-oatmeal-stout.jpg",
     "coordinates": {"savory": 0.13, "sweet": 0.9, "spice": 0.14}
   },
   {
     "name": "Marble Double White",
     "description": "Delicate and dry, pale and hazy, this Belgian-inspired wheat ale is accented with traditional spices.",
-    "imageUrl": "",
+    "imageUrl": "../img/beer/marble-double-white.jpg",
     "coordinates": {"savory": 0.7, "sweet": 0.6, "spice": 0.3}
   },
   {
