@@ -2,25 +2,25 @@
 	{
 		"questionId": 1,
 		"text": "burgers/hot dogs on the grill",
-		"imageUrl": "???",
+		"imageUrl": "/app/img/answer/burgers-dogs.jpg",
 		"score": 0.25
 	},
 	{
 		"questionId": 1,
 		"text": "picnic sandwiches",
-		"imageUrl": "???",
+		"imageUrl": "/app/img/answer/picnic-sandwiches.jpg",
 		"score": 0.1
 	},
 	{
 		"questionId": 1,
 		"text": "summer salad",
-		"imageUrl": "???",
+		"imageUrl": "/app/img/answer/summer-salad.jpg",
 		"score": -0.15
 	},
 	{
 		"questionId": 1,
 		"text": "ice cream cone",
-		"imageUrl": "???",
+		"imageUrl": "/app/img/answer/ice-cream-cone.jpg",
 		"score": -0.25
 	},
 	{
@@ -50,25 +50,25 @@
 	{
 		"questionId": 3,
 		"text": "fried chicken",
-		"imageUrl": "???",
+		"imageUrl": "/app/img/answer/fried-chicken.jpg",
 		"score": 0.25
 	},
 	{
 		"questionId": 3,
 		"text": "pizza",
-		"imageUrl": "???",
+		"imageUrl": "/app/img/answer/pizza.jpg",
 		"score": 0.15
 	},
 	{
 		"questionId": 3,
 		"text": "celery/carrots with ranch",
-		"imageUrl": "???",
+		"imageUrl": "/app/img/answer/vegetables-ranch.jpg",
 		"score": -0.1
 	},
 	{
 		"questionId": 3,
 		"text": "donuts",
-		"imageUrl": "???",
+		"imageUrl": "/app/img/answer/donuts.jpg",
 		"score": -0.25
 	},
 	{
