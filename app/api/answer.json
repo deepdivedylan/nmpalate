@@ -122,25 +122,25 @@
 	{
 		"questionId": 6,
 		"text": "Texas Chili",
-		"imageUrl": "???",
+		"imageUrl": "/app/img/answer/texaschile.jpg",
 		"score": 0.18
 	},
 	{
 		"questionId": 6,
 		"text": "Chicken Vindaloo",
-		"imageUrl": "???",
+		"imageUrl": "/app/img/answer/chickenVindaloo.jpg",
 		"score": 0.25
 	},
 	{
 		"questionId": 6,
 		"text": "Peanut Butter and Jelly Sandwich",
-		"imageUrl": "???",
+		"imageUrl": "/app/img/answer/pbj.jpg",
 		"score": -0.21
 	},
 	{
 		"questionId": 6,
 		"text": "cereal",
-		"imageUrl": "???",
+		"imageUrl": "/app/img/answer/cereal.jpg",
 		"score": -0.15
 	},
 	{
