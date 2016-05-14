@@ -7,8 +7,7 @@ import {SplashComponent} from "./components/splash";
 import {ResultComponent} from "./components/result";
 import {QuestionComponent} from "./components/question";
 import {QuestionService} from "./services/question.service";
-import {Observable} from "rxjs/Rx";
-import "rxjs/add/operator/map";
+import "rxjs/Rx";
 import {AnswersService} from "./services/answers.service";
 
 @Component({
