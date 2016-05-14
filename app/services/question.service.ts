@@ -7,6 +7,7 @@ import {Question} from '../classes/question';
 export class QuestionService {
 	constructor(private http: Http) {}
 	private questionUrl = "/app/api/question.json";
+	
 
 	getQuestion() : Observable<Question[]> {
 		return(this.http.get(this.questionUrl)

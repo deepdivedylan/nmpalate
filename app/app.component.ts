@@ -1,11 +1,13 @@
-import {Component, OnInit} from "@angular/core";
+import {Component} from "@angular/core";
 import {NgClass} from "@angular/common";
 import {Routes, Router, ROUTER_DIRECTIVES} from "@angular/router";
 import {AboutComponent} from "./components/about";
 import {SplashComponent} from "./components/splash";
 import {ResultComponent} from "./components/result";
 import {QuestionComponent} from "./components/question";
-import {QuestionService} from "./services/question.service"
+import {QuestionService} from "./services/question.service";
+import {Observable} from "rxjs/Rx";
+import "rxjs/add/operator/map";
 
 @Component({
 	selector: "nm-pallete",

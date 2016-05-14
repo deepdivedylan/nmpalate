@@ -2,73 +2,73 @@
 	{
 		"questionId": 1,
 		"text": "burgers/hot dogs on the grill",
-		"imageUrl": "blah",
+		"imageUrl": "???",
 		"score": 0.25
 	},
 	{
 		"questionId": 1,
 		"text": "picnic sandwiches",
-		"imageUrl": "blah",
+		"imageUrl": "???",
 		"score": 0.1
 	},
 	{
 		"questionId": 1,
 		"text": "summer salad",
-		"imageUrl": "blah",
+		"imageUrl": "???",
 		"score": -0.15
 	},
 	{
 		"questionId": 1,
 		"text": "ice cream cone",
-		"imageUrl": "blah",
+		"imageUrl": "???",
 		"score": -0.25
 	},
 	{
 		"questionId": 2,
 		"text": "rib-eye steak",
-		"imageUrl": "blah",
+		"imageUrl": "???",
 		"score": 0.25
 	},
 	{
 		"questionId": 2,
 		"text": "atlantic salmon",
-		"imageUrl": "blah",
+		"imageUrl": "???",
 		"score": 0.1
 	},
 	{
 		"questionId": 2,
 		"text": "mountains of pasta",
-		"imageUrl": "blah",
+		"imageUrl": "???",
 		"score": 0.05
 	},
 	{
 		"questionId": 2,
 		"text": "chocolate cake",
-		"imageUrl": "blah",
+		"imageUrl": "???",
 		"score": -0.25
 	},
 	{
 		"questionId": 3,
 		"text": "fried chicken",
-		"imageUrl": "blah",
+		"imageUrl": "???",
 		"score": 0.25
 	},
 	{
 		"questionId": 3,
 		"text": "pizza",
-		"imageUrl": "blah",
+		"imageUrl": "???",
 		"score": 0.15
 	},
 	{
 		"questionId": 3,
 		"text": "celery/carrots with ranch",
-		"imageUrl": "blah",
+		"imageUrl": "???",
 		"score": -0.1
 	},
 	{
 		"questionId": 3,
 		"text": "donuts",
-		"imageUrl": "blah",
+		"imageUrl": "???",
 		"score": -0.25
 	},
 	{
@@ -142,77 +142,5 @@
 		"text": "cereal",
 		"imageUrl": "???",
 		"score": -0.15
-	},
-	{
-		"questionId": 7,
-		"text": "Chicken Parmesan",
-		"imageUrl": "???",
-		"score": -0.2
-	},
-	{
-		"questionId": 7,
-		"text": "Toaster Strudel",
-		"imageUrl": "???",
-		"score": 0.18
-	},
-	{
-		"questionId": 7,
-		"text": "Skittles",
-		"imageUrl": "???",
-		"score": 0.09
-	},
-	{
-		"questionId": 7,
-		"text": "Chicken Carbonera",
-		"imageUrl": "???",
-		"score": -0.08
-	},
-	{
-		"questionId": 8,
-		"text": "Almond Joy",
-		"imageUrl": "???",
-		"score": 0.2
-	},
-	{
-		"questionId": 8,
-		"text": "Keylime Pie",
-		"imageUrl": "???",
-		"score": 0.075
-	},
-	{
-		"questionId": 8,
-		"text": "Burger",
-		"imageUrl": "???",
-		"score": -0.07
-	},
-	{
-		"questionId": 8,
-		"text": "Tootsie Roll",
-		"imageUrl": "???",
-		"score": 0.05
-	},
-	{
-		"questionId": 9,
-		"text": "Sour Punch",
-		"imageUrl": "???",
-		"score": -0.20
-	},
-	{
-		"questionId": 9,
-		"text": "Senior Murphy",
-		"imageUrl": "???",
-		"score": 0.075
-	},
-	{
-		"questionId": 9,
-		"text": "Chicken Tikki Masala",
-		"imageUrl": "???",
-		"score": -0.04
-	},
-	{
-		"questionId": 9,
-		"text": "Palak Paneer",
-		"imageUrl": "???",
-		"score": -0.05
 	}
 ]
