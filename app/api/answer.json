@@ -142,5 +142,82 @@
 		"text": "cereal",
 		"imageUrl": "???",
 		"score": -0.15
+	},
+	{
+		"questionId": 7,
+		"text": "Key Lime Pie",
+		"imageUrl": "???",
+		"score": 0.21
+	},
+	{
+		"questionId": 7,
+		"text": "Skittles",
+		"imageUrl": "???",
+		"score": 0.21
+	},
+
+	{
+		"questionId": 7,
+		"text": "Taco",
+		"imageUrl": "???",
+		"score": -0.7
+	},
+	{
+		"questionId": 7,
+		"text": "Rondele",
+		"imageUrl": "???",
+		"score": -0.21
+	},
+
+
+	{
+		"questionId": 8,
+		"text": "Cheese",
+		"imageUrl": "???",
+		"score": -0.21
+	},
+	{
+		"questionId": 8,
+		"text": "Butter",
+		"imageUrl": "???",
+		"score": -0.25
+	},
+	{
+		"questionId": 8,
+		"text": "Toaster strudel",
+		"imageUrl": "???",
+		"score": 0.21
+	},
+	{
+		"questionId": 8,
+		"text": "Pop Tart",
+		"imageUrl": "???",
+		"score": 0.25
+	},
+
+
+	{
+		"questionId": 9,
+		"text": "Cole Slaw",
+		"imageUrl": "???",
+		"score": -0.21
+	},
+	{
+		"questionId": 9,
+		"text": "macaroni n cheese ",
+		"imageUrl": "???",
+		"score": -0.19
+	},
+	{
+		"questionId": 9,
+		"text": "Cheesecake",
+		"imageUrl": "???",
+		"score": 0.28
+	},
+	{
+		"questionId": 9,
+		"text": "push pop",
+		"imageUrl": "???",
+		"score": 0.21
 	}
 ]
