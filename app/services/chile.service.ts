@@ -1,6 +1,6 @@
 import {Injectable} from "@angular/core";
 import {Http,Response} from "@angular/http";
-import {Observable} from "rxjs/observable";
+import {Observable} from "rxjs/Observable";
 import {Chile} from "../classes/chile";
 import {TasteCoordinates} from "../classes/taste-coordinates";
 
@@ -17,7 +17,7 @@ export class	ChileService{
 			.catch(this.handleError));
 	}
 
-	private extractData(response: response){
+	private extractData(response: Response){
 		if(response.status < 200 || response.status >= 300) {
 			throw(new Error("Bad response status: " + response.status))
 		}
