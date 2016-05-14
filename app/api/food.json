@@ -96,25 +96,94 @@
   },
   {
     "name": "Chicken Burrito",
-    "description": "This Burrito has   ",
+    "description": "One of the most popular burritos in New Mexico coupled with green chile there is no alternative",
     "imageUrl": "/food/chickenBurrito.jpg",
     "coordiniates": {"savory": 0.65, "sweet": 0.15, "spice": 0.75}
+  },
+
+  {
+    "name": "quesadilla",
+    "description": "A delicious tortilla folded in half with delicious chicken,cheese,green/red chile typically served with sour cream and guacamole ",
+    "imageUrl": "/food/quesadilla.jpg",
+    "coordiniates": {"savory": 0.75, "sweet": 0.25, "spice": 0.55}
+  },
+
+  {
+    "name": "Chimichanga",
+    "description": "This deep fried burrito has all the ingredients that wil make anybody want more ",
+    "imageUrl": "/food/chimichanga.jpg",
+    "coordiniates": {"savory": 0.85, "sweet": 0.05, "spice": 0.45}
+  },
+
+  {
+    "name": "Albuquerque Turkey",
+    "description": "",
+    "imageUrl": "/food/abqturkey.jpg",
+    "coordiniates": {"savory": 0.85, "sweet": 0.25, "spice": 0.05}
+  },
+
+  {
+    "name": "Tortilla Soup",
+    "description": "Served with green/red chile this soup will burn any cold away",
+    "imageUrl": "/food/tsoup.jpg",
+    "coordiniates": {"savory": 0.65, "sweet": 0.05, "spice": 0.85}
+  },
+
+  {
+    "name": "Mutton",
+    "description": "This delicatessen served with fry bread, rice, beans",
+    "imageUrl": "/food/mutton.jpg",
+    "coordiniates": {"savory": 0.95, "sweet": 0.35, "spice": 0.45}
+  },
+
+  {
+    "name": "Green Chile CheeseBurger",
+    "description": "The all New Mexican burger served with green chile will have you coming back for more",
+    "imageUrl": "/food/gcburger.jpg",
+    "coordiniates": {"savory": 0.95, "sweet": 0.35, "spice": 0.45}
+  },
+
+  {
+    "name": "Chile Relleno",
+    "description": "Delicious meats stuffed into a poblano chile that is just earth shattering",
+    "imageUrl": "/food/chilerelleno.jpg",
+    "coordiniates": {"savory": 0.75, "sweet": 0.15, "spice": 0.85}
+  },
+
+  {
+    "name": "Green Chile Cheese Fries",
+    "description": "This appetizer is so mouthwatering that it will burn so good! ",
+    "imageUrl": "/food/gcCheeseFries.jpg",
+    "coordiniates": {"savory": 0.25, "sweet": 0.0, "spice": 0.95}
+  },
+
+
+  {
+    "name": "Tamale",
+    "description": "The New Mexican Tamales are stuffed with pork but can be substituted for chicken or beef",
+    "imageUrl": "/food/tamales.jpg",
+    "coordiniates": {"savory": 0.75, "sweet": 0.10, "spice": 0.87}
+  },
+
+  {
+    "name": "Blue Corn Enchiladas",
+    "description": "These enchiladas are the perfect blend of delicious enchiladas with a New Mexican twist to it ",
+    "imageUrl": "/food/bcEnchilladas.jpg",
+    "coordiniates": {"savory": 0.75, "sweet": 0.10, "spice": 0.75}
+  },
+
+  {
+    "name": "Breakfast Burrito",
+    "description": "The new mexican burrito can come in a variety of flavors, green, red or Christmas ",
+    "imageUrl": "/food/nmBreakfastBurrito.jpg",
+    "coordiniates": {"savory": 0.65, "sweet": 0.15, "spice": 0.75}
+  },
+
+  {
+    "name": "Green Chile Stew",
+    "description": "This quintessential stew is one of NM Pride and Joy ",
+    "imageUrl": "/food/gcStew.jpg",
+    "coordiniates": {"savory": 0.75, "sweet": 0.35, "spice": 0.95}
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     ]
