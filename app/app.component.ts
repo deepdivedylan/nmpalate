@@ -3,6 +3,7 @@ import {Routes, Router, ROUTER_DIRECTIVES} from "@angular/router";
 import {AboutComponent} from "./components/about";
 import {SplashComponent} from "./components/splash";
 import {ResultComponent} from "./components/result";
+import {QuestionComponent} from "./components/question"
 
 @Component({
 	selector: "nm-pallete",
@@ -13,6 +14,7 @@ import {ResultComponent} from "./components/result";
 @Routes([
     {path: "/result", component: ResultComponent},
 	{path: "/about", component: AboutComponent},
+	{path: "/question", component: QuestionComponent},
 	{path: "/", component: SplashComponent},
 	{path: "*", component: SplashComponent}
 ])
