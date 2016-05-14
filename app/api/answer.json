@@ -155,7 +155,6 @@
 		"imageUrl": "???",
 		"score": 0.21
 	},
-
 	{
 		"questionId": 7,
 		"text": "Taco",
@@ -168,8 +167,6 @@
 		"imageUrl": "???",
 		"score": -0.21
 	},
-
-
 	{
 		"questionId": 8,
 		"text": "Cheese",
@@ -194,8 +191,6 @@
 		"imageUrl": "???",
 		"score": 0.25
 	},
-
-
 	{
 		"questionId": 9,
 		"text": "Cole Slaw",
@@ -204,7 +199,7 @@
 	},
 	{
 		"questionId": 9,
-		"text": "macaroni n cheese ",
+		"text": "macaroni n cheese",
 		"imageUrl": "???",
 		"score": -0.19
 	},
