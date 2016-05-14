@@ -1,5 +1,6 @@
 {
-	"name": "angular2-quickstart",
+	"name": "nm-pallete",
+	"desription": "A dynamic recoomendation engine for the gastronomic paradise of New Mexico, the Land of Enchantment",
 	"version": "1.0.0",
 	"scripts": {
 		"start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
@@ -9,7 +10,7 @@
 		"typings": "typings",
 		"postinstall": "typings install"
 	},
-	"license": "ISC",
+	"license": "Apache-2.0",
 	"dependencies": {
 		"@angular/common":  "2.0.0-rc.1",
 		"@angular/compiler":  "2.0.0-rc.1",
