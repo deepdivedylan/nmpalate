@@ -13,7 +13,8 @@ import {ResultComponent} from "./components/result";
 @Routes([
     {path: "/result", component: ResultComponent},
 	{path: "/about", component: AboutComponent},
-	{path: "/", component: SplashComponent}
+	{path: "/", component: SplashComponent},
+	{path: "*", component: SplashComponent}
 ])
 
 export class NmPallete {
