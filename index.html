@@ -15,6 +15,9 @@
 		<script src="https://npmcdn.com/systemjs/dist/system.src.js"></script>
 		<script src="https://npmcdn.com/rxjs/bundles/Rx.min.js"></script>
 
+		<!--nav-->
+		<script src="nav.js"></script>
+
 		<!--twitter-->
 		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
@@ -39,6 +42,24 @@
 	</head>
 	<!-- 3. Display the application -->
 	<body>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" aria-expanded="false" onclick="toggleCollapse();">
+							<span class="sr-only">Toggle navigation</span>
+							<i class="fa fa-bars"></i>
+						</button>
+					<a class="navbar-brand" href="/"><img id="navbar-logo" src="/app/img/zia-color.svg"></a>
+				</div>
+
+				<div id="navbar-collapse" class="collapse navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="/">Home</a></li>
+						<li><a href="/about/">About</a></li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</nav>
 		<main class="container">
 			<nm-pallete>Loading...</nm-pallete>
 		</main>

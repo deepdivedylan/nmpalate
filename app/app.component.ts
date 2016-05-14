@@ -14,7 +14,7 @@ import {QuestionService} from "./services/question.service"
 })
 
 @Routes([
-    {path: "/result", component: ResultComponent},
+	{path: "/result", component: ResultComponent},
 	{path: "/about", component: AboutComponent},
 	{path: "/question", component: QuestionComponent},
 	{path: "/", component: SplashComponent},
