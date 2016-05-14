@@ -9,14 +9,14 @@ export class QuestionService {
 	private questionUrl = "/app/api/question.json";
 	
 
-	getQuestion() : Observable<Question[]> {
+	getQuestions() : Observable<Question[]> {
 		return(this.http.get(this.questionUrl)
 			.map(this.extractData)
 			.catch(this.handleError));
 	}
 
 	private extractData(response: Response) {
-		if(response.status <  200 || response.status >= 300) {
+		if(response.status < 200 || response.status >= 300) {
 			throw(new Error("Bad response status: " + response.status))
 		}
 

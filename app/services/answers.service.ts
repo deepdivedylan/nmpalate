@@ -5,10 +5,10 @@ import {Answers} from '../classes/answers';
 
 @Injectable()
 export class AnswersService {
-    constructor(private http:Http) {}
+    constructor(private http: Http) {}
     private answersUrl = "/app/api/answer.json";
 
-    getAnswer():Observable<Answers[]> {
+    getAnswers():Observable<Answers[]> {
         return (this.http.get(this.answersUrl)
             .map(this.extractData)
             .catch(this.handleError));
