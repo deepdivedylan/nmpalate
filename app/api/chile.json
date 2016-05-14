@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Green Lumbre",
+    "description": "",
+    "imageUrl": "",
+    "coordinates": {"savory":0.07, "spice": 1, "sweet": 0.07}
+  },
+  {
+    "name": "Green Barker",
+    "description": "",
+    "imageUrl": "",
+    "coordinates": {"savory":0.14, "spice": 0.93, "sweet": 0.14}
+  },
+  {
+    "name": "Green 6-4",
+    "description": "",
+    "imageUrl": "",
+    "coordinates": {"savory":0.21, "spice": 0.86, "sweet": 0.21}
+  },
+  {
+    "name": "Green Sandia",
+    "description": "",
+    "imageUrl": "",
+    "coordinates": {"savory":0.29, "spice": 0.79, "sweet": 0.29}
+  },
+  {
+    "name": "Green Espanola",
+    "description": "",
+    "imageUrl": "",
+    "coordinates": {"savory":0.36, "spice": 0.71, "sweet": 0.36}
+  },
+  {
+    "name": "Green Big Jim",
+    "description": "",
+    "imageUrl": "",
+    "coordinates": {"savory":0.50, "spice": 0.50, "sweet": 0.50}
+  },
+  {
+    "name": "Green Joe E. Parker",
+    "description": "",
+    "imageUrl": "",
+    "coordinates": {"savory":0.64, "spice": 0.43, "sweet": 0.71}
+  },
+  {
+    "name": "Red Lumbre",
+    "description": "",
+    "imageUrl": "",
+    "coordinates": {"savory":0.43, "spice": 0.64, "sweet": 0.43}
+  },
+  {
+    "name": "Red Barker",
+    "description": "",
+    "imageUrl": "",
+    "coordinates": {"savory":0.57, "spice": 0.57, "sweet": 0.57}
+  },
+  {
+    "name": "Red 6-4",
+    "description": "",
+    "imageUrl": "",
+    "coordinates": {"savory":0.71, "spice": 0.36, "sweet": 0.64}
+  },
+  {
+    "name": "Red Sandia",
+    "description": "",
+    "imageUrl": "",
+    "coordinates": {"savory":0.79, "spice": 0.29, "sweet": 0.79}
+  },
+  {
+    "name": "Red Espanola",
+    "description": "",
+    "imageUrl": "",
+    "coordinates": {"savory":0.86, "spice": 0.21, "sweet": 0.86}
+  },
+  {
+    "name": "Red Big Jim",
+    "description": "",
+    "imageUrl": "",
+    "coordinates": {"savory":0.93, "spice": 0.14, "sweet": 0.93}
+  },
+  {
+    "name": "Red Joe E. Parker",
+    "description": "",
+    "imageUrl": "",
+    "coordinates": {"savory":1, "spice": 0.07, "sweet": 1}
+  }
+]
