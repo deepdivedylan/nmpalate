@@ -1,19 +1,23 @@
-<div class="row">
-	<p>{{ question.text }}</p>
-</div>
-<div class="row skip-line">
-		<div class="col-xs-6">
-			<img class="img-framed img-rounded img-responsive" src="{{ question.answers[0].src }}">
-		</div>
-		<div class="col-xs-6">
-			<img class="img-framed img-rounded img-responsive" src="{{ question.answers[1].src }}">
-		</div>
-	</div>
+<div *ngFor="let question of questionList; let i = index">
 	<div class="row">
-		<div class="col-xs-6">
-			<img class="img-framed img-rounded img-responsive" src="{{ question.answers[2].src }}">
+		<p>{{ question.text }}</p>
+	</div>
+	<div class="row skip-line">
+		<!--
+			<div class="col-xs-6">
+				<img class="img-framed img-rounded img-responsive" src="{{ answerList. }}">
+			</div>
+			<div class="col-xs-6">
+				<img class="img-framed img-rounded img-responsive" src="{{  }}">
+			</div>
 		</div>
-		<div class="col-xs-6">
-			<img class="img-framed img-rounded img-responsive" src="{{ question.answers[3].src }}">
-		</div>
+		<div class="row">
+			<div class="col-xs-6">
+				<img class="img-framed img-rounded img-responsive" src="{{  }}">
+			</div>
+			<div class="col-xs-6">
+				<img class="img-framed img-rounded img-responsive" src="{{  }}">
+			</div>-->
+		<p>repeat</p>
+	</div>
 </div>

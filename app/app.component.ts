@@ -6,15 +6,13 @@ import {AboutComponent} from "./components/about";
 import {SplashComponent} from "./components/splash";
 import {ResultComponent} from "./components/result";
 import {QuestionComponent} from "./components/question";
-import {QuestionService} from "./services/question.service";
 import "rxjs/Rx";
-import {AnswersService} from "./services/answers.service";
 
 @Component({
 	selector: "nm-pallete",
 	templateUrl: "app/templates/nm-pallete.html",
 	directives: [NgClass, ROUTER_DIRECTIVES],
-	providers: [QuestionService, AnswersService, HTTP_PROVIDERS]
+	providers: [HTTP_PROVIDERS]
 })
 
 @Routes([

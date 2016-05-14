@@ -2,7 +2,6 @@ import {Injectable} from '@angular/core';
 import {Http, Response} from "@angular/http";
 import {Observable}  from "rxjs/Observable";
 import {Question} from '../classes/question';
-import {Answers} from '../classes/answers';
 
 @Injectable()
 export class QuestionService {

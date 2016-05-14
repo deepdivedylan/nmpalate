@@ -1,5 +1,4 @@
 import {Component, OnInit} from "@angular/core";
-import {Http} from "@angular/http";
 import {QuestionService} from "../services/question.service";
 import {AnswersService} from "../services/answers.service";
 import {Question} from "../classes/question";
@@ -8,7 +7,7 @@ import {Answers} from "../classes/answers";
 
 @Component({
     templateUrl: "app/templates/question.html",
-
+    providers: [QuestionService, AnswersService]
 })
 
 export class QuestionComponent {
@@ -39,6 +38,7 @@ export class QuestionComponent {
             .subscribe(
                 answers => {
                     this.answerList = answers;
+                    console.log(this.answerList);
                 },
                 error => this.errorMessage = error
             );
