@@ -73,78 +73,78 @@
   {
     "name": "Marble Wildflower Wheat",
     "description": "An unfiltered American Wheat Ale accented with New Mexico wildflower honey. Our liquid sopapilla.",
-    "imageUrl": "../img/beer/marble-wildflower-wheat",
+    "imageUrl": "../img/beer/marble-wildflower-wheat.jpg",
     "coordinates": {"savory": 0.15, "sweet": 0.8, "spice": 0.17}
   },
   {
     "name": "Abbey Monks’ Ale",
     "description": "Monks’ Ale is distinctly fruity and spicy. The yeast lends a note of clove and in combination with the malt, hints of plum and apricot. The malt itself provides a honeyish quality up front, a round fullness in the middle, and the hops, together with our pure brewing water, lend a clean, dry finish.",
-    "imageUrl": "",
+    "imageUrl": "../img/beer/monks-ale.jpg",
     "coordinates": {"savory": 0.41, "sweet": 0.12, "spice": 0.51}
   },
   {
     "name": "Abbey Monks' Dark Ale",
     "description": "Monks’ Dark Ale is a well-balanced medium bodied ale with a smooth creamy mouthfeel, good carbonation, and no alcohol warmth or astringency. The aromas are predominantly hazelnut and chocolate with hints of raisins and stone fruits with no diacetyl. This ale pours with nice lacing and a lasting tan head. Flavors include toasted hazelnuts, raisins, caramel malt, and mild green apples with no phenols. The subdued, yet present hops create a light, crisp, refreshing, taste. The finish is dry with mild caramel and slight roastiness with mild green apples.",
-    "imageUrl": "",
+    "imageUrl": "../img/beer/monks-dark-ale.jpg",
     "coordinates": {"savory": 0.13, "sweet": 0.88, "spice": 0.09}
   },
   {
     "name": "Bosque Lager",
     "description": "Bosque's interpretation of what a light-bodied lager should be, this offering quenches thirsty palates without sacrificing depth and character. Balanced medium hop and malt profiles are present in the aroma and flavor and the eye is drawn to its straw colored, glass-like clarity.",
-    "imageUrl": "",
+    "imageUrl": "../img/beer/bosque-lager.jpg",
     "coordinates": {"savory": 0.22, "sweet": 0.55, "spice": 0.05}
   },
   {
     "name": "Bosque Scotia Scotch Ale",
     "description": "Amber colored with a chewy mouthfeel. This giant is brewed in the “wee heavy” style of Scotch ales: heavy on the alcohol, caramel, and malty sweetness.",
-    "imageUrl": "",
+    "imageUrl": "../img/beer/bosque-scotia-scotch-ale.jpg",
     "coordinates": {"savory": 0.10, "sweet": 0.75, "spice": 0.02}
   },
   {
     "name": "Chama River Class VI Golden Lager",
     "description": "This Bohemian-style Pilsner is brewed with 100% German malt and hopped with Czech Saaz. This Golden lager is crisp and clean with subtle aroma of hops.",
-    "imageUrl": "/path/to/image.png",
+    "imageUrl": "../img/beer/chama-river-class-6.jpg",
     "coordinates": {"savory": 0.2, "sweet": 0.1, "spice": 0.2}
   },
   {
     "name": "Chama River Jackalope IPA",
     "description": "Our house IPA offers a balance and zest for the hopheads looking for an everyday IPA. We use five varieties of hops to create citrus and pine notes that start with a great aroma and finish with great flavor and clean bitterness.",
-    "imageUrl": "",
+    "imageUrl": "../img/beer/chama-river-jackalope-ipa.jpg",
     "coordinates": {"savory": 0.98, "sweet": 0.01, "spice": 0.5}
   },
   {
     "name": "Red Door Belgian Dubbel",
     "description": "he Brewers at Red Door aren’t Trappist Monks, but they sure do like the beer they create in their monasteries.  Red Door’s version of this Abbey style ale is made with a yeast strain from the Westmalle Brewery in Belgium.  It’s slightly sweet up front with fruit and spice aromas and finishes dry.",
-    "imageUrl": "",
+    "imageUrl": "../img/beer/red-door.jpg",
     "coordinates": {"savory": 0.25, "sweet": 0.5, "spice": 0.25}
   },
   {
     "name": "Santa Fe Happy Camper IPA",
     "description": "Happy Camper IPA is a classic beer for those beer lovers who love their hops. By masterfully combining several different hops with a very specific brewing process, we ended up with a beautifully balanced IPA. Full-bodied maltiness combined with a spicy, citric, and floral hop character, make this IPA one of our most popular beers.",
-    "imageUrl": "",
+    "imageUrl": "../img/beer/santa-fe-happy-camper.jpg",
     "coordinates": {"savory": 1, "sweet": 0.03, "spice": 0.6}
   },
   {
     "name": "Santa Fe Nut Brown",
     "description": "Santa Fe Brewing Company’s Nut Brown Ale uses a combination of high mash temperature, hard water, and low-alpha acid hops to produce a product that is both true to an English style Brown yet distinctly Santa Fe. This easy-drinking beer is mild with a nutty flavor which makes it a perfect session beer.",
-    "imageUrl": "",
+    "imageUrl": "../img/beer/santa-fe-nut-brown.jpg",
     "coordinates": {"savory": 0.08, "sweet": 0.33, "spice": 0.08}
   },
   {
     "name": "Tractor Delicious Red Apple Cider",
     "description": "SYNCHRONIZED FLAVORS AND CARBONATION CULTIVATE THE PALATE WITHOUT THE EFFECT OF TONGUE FATIGUE. WHETHER SITTING, STANDING, HITCHING OR PULLING, THIS TOE TAPPING CIDER WONʼT WEAR WOBBLY. SOME SECRETS OF ITS STAMINA ARE KNOWN, MORE BECOME APPARENT WHEN YOU SEE AND TRY IT FOR YOURSELF. EVEN IF YOUʼVE BEEN DRINKING CIDERS FOR AS LONG AS WE HAVE, THEREʼS A FRESH NEW THRILL WAITING FOR YOU. IT IS TASTIER, SMOOTHER, MORE GOLDEN IN COLOR, AND MORE FLAVORFUL THAN ANYTHING ELSE IN ITS CLASS.",
-    "imageUrl": "",
+    "imageUrl": "../img/beer/tractor.jpg",
     "coordinates": {"savory": 0.05, "sweet": 1, "spice": 0.1}
   },
   {
     "name": "Tractor Farmer's Tan Red Ale",
     "description": "BIG, RICH AND MALTY, WAS DESIGNED TO BRING FORWARD BOLD CANDY FLAVORS THAT MINGLE WITH SLIGHT NOTES OF EARTHY HOPS. POUR YOURSELF ONE OF THESE DEEP AMBER ALES AND LET YOUR SENSES ENJOY THE AROMA OF TOASTED CARAMEL MALT THAT FINISHES SLIGHTLY SWEET AND UNBELIEVABLY DELICIOUS.",
-    "imageUrl": "",
+    "imageUrl": "../img/beer/tractor.jpg",
     "coordinates": {"savory": 0.8, "sweet": 0.15, "spice": 0.34}
   },
   {
     "name": "Tractor Hay Maker Honey Wheat",
     "description": "A LIGHT, HONEY COLORED WHEAT ALE MADE WITH LOCAL NEW MEXICO HONEY. THIS CRISP BEER STRIKES OF HONEY FOLLOWED BY A SLIGHTLY HOPPY AFTERTASTE. MAKE HAY WHILE THE SUN SHINES.",
-    "imageUrl": "",
+    "imageUrl": "../img/beer/tractor.jpg",
     "coordinates": {"savory": 0.2, "sweet": 0.66, "spice": 0.1}
   }]
