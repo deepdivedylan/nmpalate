@@ -1,7 +1,7 @@
 (function(app) {
 	app.AppComponent =
 		ng.core.Component({
-			selector: "my-app",
+			selector: "nm-pallete",
 			templateUrl: "app/templates/splash.html"
 	})
 		.Class({
