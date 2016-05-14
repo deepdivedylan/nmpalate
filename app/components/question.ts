@@ -7,4 +7,5 @@ import {QuestionService} from "../services/question.service"
 })
 
 export class QuestionComponent {
+    constructor(private QuestionService: QuestionService) {}
 }
