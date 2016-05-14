@@ -8,7 +8,7 @@ import {QuestionService} from "./services/question.service"
 
 @Component({
 	selector: "nm-pallete",
-	template: "<router-outlet></router-outlet>",
+	templateUrl: "app/templates/nm-pallete.html",
 	directives: [ROUTER_DIRECTIVES],
 	providers: [QuestionService]
 })
