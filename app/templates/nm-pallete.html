@@ -1,14 +1,14 @@
 <nav class="navbar navbar-default">
 	<div class="container-fluid">
 		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed" aria-expanded="false" onclick="toggleCollapse();">
-					<span class="sr-only">Toggle navigation</span>
-					<i class="fa fa-bars"></i>
-				</button>
+			<button type="button" class="navbar-toggle collapsed" aria-expanded="false" (click)="toggleCollapse();">
+				<span class="sr-only">Toggle navigation</span>
+				<i class="fa fa-bars"></i>
+			</button>
 			<a class="navbar-brand" href="/"><img id="navbar-logo" src="/app/img/zia-color.svg"></a>
 		</div>
 
-		<div id="navbar-collapse" class="collapse navbar-collapse">
+		<div class="navbar-collapse" [ngClass]="{collapse: navCollapse}">
 			<ul class="nav navbar-nav navbar-right">
 				<li><a [routerLink]="['/']">Home</a></li>
 				<li><a [routerLink]="['/about']">About</a></li>
