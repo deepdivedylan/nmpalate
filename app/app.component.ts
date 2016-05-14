@@ -1,7 +1,7 @@
 import {Component} from "@angular/core";
 import {NgClass} from "@angular/common";
 import {Routes, Router, ROUTER_DIRECTIVES} from "@angular/router";
-import {Http} from "@angular/http";
+import {HTTP_PROVIDERS} from "@angular/http";
 import {AboutComponent} from "./components/about";
 import {SplashComponent} from "./components/splash";
 import {ResultComponent} from "./components/result";
@@ -15,7 +15,7 @@ import {AnswersService} from "./services/answers.service";
 	selector: "nm-pallete",
 	templateUrl: "app/templates/nm-pallete.html",
 	directives: [NgClass, ROUTER_DIRECTIVES],
-	providers: [QuestionService, AnswersService, Http]
+	providers: [QuestionService, AnswersService, HTTP_PROVIDERS]
 })
 
 @Routes([

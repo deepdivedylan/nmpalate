@@ -2,12 +2,12 @@ import {Injectable} from '@angular/core';
 import {Http, Response} from "@angular/http";
 import {Observable}  from "rxjs/Observable";
 import {Question} from '../classes/question';
+import {Answers} from '../classes/answers';
 
 @Injectable()
 export class QuestionService {
 	constructor(private http: Http) {}
 	private questionUrl = "/app/api/question.json";
-	
 
 	getQuestions() : Observable<Question[]> {
 		return(this.http.get(this.questionUrl)
@@ -16,7 +16,7 @@ export class QuestionService {
 	}
 
 	private extractData(response: Response) {
-		if(response.status < 200 || response.status >= 300) {
+		if(response.status <  200 || response.status >= 300) {
 			throw(new Error("Bad response status: " + response.status))
 		}
 
