@@ -26,25 +26,25 @@
 	{
 		"questionId": 2,
 		"text": "rib-eye steak",
-		"imageUrl": "???",
+		"imageUrl": "/app/img/answer/rib-eye-steak.jpg",
 		"score": 0.25
 	},
 	{
 		"questionId": 2,
 		"text": "atlantic salmon",
-		"imageUrl": "???",
+		"imageUrl": "/app/img/answer/atlantic-salmon.jpg",
 		"score": 0.1
 	},
 	{
 		"questionId": 2,
 		"text": "mountains of pasta",
-		"imageUrl": "???",
+		"imageUrl": "/app/img/answer/mountains-of-pasta.jpg",
 		"score": 0.05
 	},
 	{
 		"questionId": 2,
 		"text": "chocolate cake",
-		"imageUrl": "???",
+		"imageUrl": "/app/img/answer/chocolate-cake.jpg",
 		"score": -0.25
 	},
 	{
@@ -74,49 +74,49 @@
 	{
 		"questionId": 4,
 		"text": "Biryani",
-		"imageUrl": "???",
+		"imageUrl": "/app/img/answer/biryani.jpg",
 		"score": 0.2
 	},
 	{
 		"questionId": 4,
 		"text": "Mexican Rice",
-		"imageUrl": "???",
+		"imageUrl": "/app/img/answer/mexican-rice.jpg",
 		"score": 0.075
 	},
 	{
 		"questionId": 4,
 		"text": "Blueberry Muffin",
-		"imageUrl": "???",
+		"imageUrl": "/app/img/answer/blueberry-muffin.jpg",
 		"score": -0.05
 	},
 	{
 		"questionId": 4,
 		"text": "French Fries",
-		"imageUrl": "???",
+		"imageUrl": "/app/img/answer/french-fries.jpg",
 		"score": -0.05
 	},
 	{
 		"questionId": 5,
 		"text": "Kung Pao Chicken",
-		"imageUrl": "???",
+		"imageUrl": "/app/img/answer/kung-pao-chicken.jpg",
 		"score": 0.22
 	},
 	{
 		"questionId": 5,
 		"text": "Biscuits and Gravy",
-		"imageUrl": "???",
+		"imageUrl": "/app/img/answer/biscuits-and-gravy.jpg",
 		"score": -0.12
 	},
 	{
 		"questionId": 5,
 		"text": "Avocados",
-		"imageUrl": "???",
+		"imageUrl": "/app/img/answer/avocados.jpg",
 		"score": 0.05
 	},
 	{
 		"questionId": 5,
 		"text": "Blueberries",
-		"imageUrl": "???",
+		"imageUrl": "/app/img/answer/blueberries.jpg",
 		"score": -0.125
 	},
 	{
