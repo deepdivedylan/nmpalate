@@ -1,75 +1,146 @@
-{
-  "answers":[
-  {
-    "questionId": 0,
-    "text": "burgers/hot dogs on the grill",
-    "imageUrl": "blah",
-    "score": 0.25
-  },
-  {
-    "questionId": 0,
-    "text": "picnic sandwiches",
-    "imageUrl": "blah",
-    "score": 0.10
-  },
-  {
-    "questionId": 0,
-    "text": "summer salad",
-    "imageUrl": "blah",
-    "score": -0.15
-  },
-  {
-    "questionId": 0,
-    "text": "ice cream cone",
-    "imageUrl": "blah",
-    "score": -0.25
-  },
-  {
-    "questionId": 1,
-    "text": "rib-eye steak",
-    "imageUrl": "blah",
-    "score": 0.25
-  },
-  {
-    "questionId": 1,
-    "text": "atlantic salmon",
-    "imageUrl": "blah",
-    "score": 0.10
-  },
-  {
-    "questionId": 1,
-    "text": "mountains of pasta",
-    "imageUrl": "blah",
-    "score": 0.05
-  },
-  {
-    "questionId": 1,
-    "text": "chocolate cake",
-    "imageUrl": "blah",
-    "score": -0.25
-  },
-  {
-    "questionId": 2,
-    "text": "fried chicken",
-    "imageUrl": "blah",
-    "score": 0.25
-  },
-  {
-    "questionId": 2,
-    "text": "pizza",
-    "imageUrl": "blah",
-    "score": 0.15
-  },
-  {
-    "questionId": 2,
-    "text": "celery/carrots with ranch",
-    "imageUrl": "blah",
-    "score": -0.10
-  },
-  {
-    "questionId": 2,
-    "text": "donuts",
-    "imageUrl": "blah",
-    "score": -0.25
-  }]
-}
+[
+	{
+		"questionId": 1,
+		"text": "burgers/hot dogs on the grill",
+		"imageUrl": "blah",
+		"score": 0.25
+	},
+	{
+		"questionId": 1,
+		"text": "picnic sandwiches",
+		"imageUrl": "blah",
+		"score": 0.1
+	},
+	{
+		"questionId": 1,
+		"text": "summer salad",
+		"imageUrl": "blah",
+		"score": -0.15
+	},
+	{
+		"questionId": 1,
+		"text": "ice cream cone",
+		"imageUrl": "blah",
+		"score": -0.25
+	},
+	{
+		"questionId": 2,
+		"text": "rib-eye steak",
+		"imageUrl": "blah",
+		"score": 0.25
+	},
+	{
+		"questionId": 2,
+		"text": "atlantic salmon",
+		"imageUrl": "blah",
+		"score": 0.1
+	},
+	{
+		"questionId": 2,
+		"text": "mountains of pasta",
+		"imageUrl": "blah",
+		"score": 0.05
+	},
+	{
+		"questionId": 2,
+		"text": "chocolate cake",
+		"imageUrl": "blah",
+		"score": -0.25
+	},
+	{
+		"questionId": 3,
+		"text": "fried chicken",
+		"imageUrl": "blah",
+		"score": 0.25
+	},
+	{
+		"questionId": 3,
+		"text": "pizza",
+		"imageUrl": "blah",
+		"score": 0.15
+	},
+	{
+		"questionId": 3,
+		"text": "celery/carrots with ranch",
+		"imageUrl": "blah",
+		"score": -0.1
+	},
+	{
+		"questionId": 3,
+		"text": "donuts",
+		"imageUrl": "blah",
+		"score": -0.25
+	},
+	{
+		"questionId": 4,
+		"text": "Biryani",
+		"imageUrl": "???",
+		"score": 0.2
+	},
+	{
+		"questionId": 4,
+		"text": "Mexican Rice",
+		"imageUrl": "???",
+		"score": 0.075
+	},
+	{
+		"questionId": 4,
+		"text": "Blueberry Muffin",
+		"imageUrl": "???",
+		"score": -0.05
+	},
+	{
+		"questionId": 4,
+		"text": "French Fries",
+		"imageUrl": "???",
+		"score": -0.05
+	},
+	{
+		"questionId": 5,
+		"text": "Kung Pao Chicken",
+		"imageUrl": "???",
+		"score": 0.22
+	},
+	{
+		"questionId": 5,
+		"text": "Biscuits and Gravy",
+		"imageUrl": "???",
+		"score": -0.12
+	},
+	{
+		"questionId": 5,
+		"text": "Avocados",
+		"imageUrl": "???",
+		"score": 0.05
+	},
+	{
+		"questionId": 5,
+		"text": "Blueberries",
+		"imageUrl": "???",
+		"score": -0.125
+	},
+	{
+		"questionId": 6,
+		"text": "Texas Chili",
+		"imageUrl": "???",
+		"score": 0.18
+	},
+	{
+		"questionId": 6,
+		"text": "Chicken Vindaloo",
+		"imageUrl": "???",
+		"score": 0.25
+	},
+	{
+		"questionId": 6,
+		"text": "Peanut Butter and Jelly Sandwich",
+		"imageUrl": "???",
+		"score": -0.21
+	},
+	{
+		"questionId": 6,
+		"text": "cereal",
+		"imageUrl": "???",
+		"score": -0.15
+	}
+]
