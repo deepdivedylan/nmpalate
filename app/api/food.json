@@ -1,0 +1,120 @@
+[
+   {
+  "name": "Tostadas",
+  "description": " Tortilla, shredded meat, chicken,refried beans, lettuce, tomatoes,cheese",
+  "imageUrl": "/food/tostada.jpg",
+  "coordinates":{"savory": 0.03, "sweet": 0.25, "spice": 0.25}
+  },
+
+  {
+    "name": "Huveos Rancheros",
+    "description": "Served with a fried eggs, red or green chile, served on a lightly fried tortilla",
+    "imageUrl": "/food/huevosranchero.jpg",
+    "cooridinates": {
+      "savory": 0.85, "sweet": 0.4, "spice": 0.7
+    }
+  },
+  {
+
+    "name":"Stuffed Sopapillas",
+    "description":"Delicious ground beef with rice, green chile, stuffed into a delicious Sopapillas! ",
+    "imageUrl": "/food/stuffedSopa.jpg",
+    "coordiniates":{"savory":0.85, "sweet": 0.85, "spice": 0.65}
+  },
+
+  {
+    "name":"Enchilada",
+    "description": "Amazing rolled flour tortillas with either chicken, beef or cheese",
+    "imageUrl": "/food/enchilladas.jpg",
+    "coordiniates":{"savory": 0.85,"sweet":0.85,"spice": 0.75}
+
+  },
+
+  {
+    "name":"Indian Tacos",
+    "description":"With fry bread on the bottom, covered with delicious ground beef, lettuce, tomato & sour cream",
+    "imageUrl": "/food/indianTacos.jpg",
+    "coordiniates": {"savory": 0.75, "sweet": 0.65,"spice": 0.45}
+
+  },
+
+  {
+    "name": "Blue Corn Pancakes",
+    "description":"The heartiest of breakfasts a stack of the famous blue corn pancakes served with a syrup of choice",
+    "imageUrl":"/food/bluecorn.jpg",
+    "coordiniates": {"savory": 1, "sweet": 0.95, "spice": 0.0}
+
+  },
+
+  {
+    "name": "Fry Bread",
+    "description": "The much beloved fry bread sprinkled with powdered sugar makes for the excellent dessert",
+    "imageUrl": "/food/frybread.jpg",
+    "coordiniates": {"savory": 0, "sweet": 0.98, "spice": 0}
+
+  },
+  {
+    "name": "Carnitas",
+    "description": "The ideal plate for the meat lover who is need for a delicious blend of savory and spicy",
+    "imageUrl": "/food/carnitas.jpg",
+    "coordiniates": {"savory": 1, "sweet": 0, "spice": 0.45}
+  },
+
+  {
+    "name": "Carne Adovada Burrito",
+    "description": "The New Mexican pulled pork is a slow cooked burrito of heaven",
+    "imageUrl": "/food/carneAdovadaBurrito.jpg",
+    "coordiniates": {"savory": 95, "sweet": 0, "spice": 0.75}
+  },
+
+  {
+    "name": "Carne Adovada Plate",
+    "description": "This dish has all essential New Mexican components, savory carne adovada, with rice, beans and pico de gallo",
+    "imageUrl": "/food/carneAplate.jpg",
+    "coordiniates": {"savory": 95, "sweet": 0, "spice": 0.85}
+  },
+
+  {
+    "name": "Carnitas Burrito",
+    "description": "This burrito has all the fixings that make New Mexico known for.",
+    "imageUrl": "/food/carnitasBurrito.jpg",
+    "coordiniates": {"savory": 95, "sweet": 0.25, "spice": 0.85}
+  },
+
+  {
+    "name": "Menudo",
+    "description": "This traditional soup typically served with beef stomach in a delicious red broth pepper ",
+    "imageUrl": "/food/menudo.jpg",
+    "coordiniates": {"savory": 75, "sweet": 0.10, "spice": 0.85}
+  },
+
+  {
+    "name": "Posole",
+    "description": "This traditional stew is made with a variety of ingredients pork & hominy being the most important   ",
+    "imageUrl": "/food/posole.jpg",
+    "coordiniates": {"savory": 85, "sweet": 0.05, "spice": 0.75}
+  },
+  {
+    "name": "Chicken Burrito",
+    "description": "This Burrito has   ",
+    "imageUrl": "/food/chickenBurrito.jpg",
+    "coordiniates": {"savory": 0.65, "sweet": 0.15, "spice": 0.75}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ]
