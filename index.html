@@ -1,9 +1,11 @@
 <html>
 	<head>
 		<title>Angular 2 QuickStart JS</title>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="styles.css">
-		<!-- 1. Load libraries -->
+
+		<!-- 0. Load libraries -->
 		<!-- IE required polyfill -->
 		<script src="https://rumblex.s3.amazonaws.com/starter/es6-shim/es6-shim.min.js"></script>
 		<script src="https://rumblex.s3.amazonaws.com/starter/zone.js/dist/zone.js"></script>
@@ -14,12 +16,20 @@
 		<script src="https://rumblex.s3.amazonaws.com/starter/@angular/compiler/compiler.umd.js"></script>
 		<script src="https://rumblex.s3.amazonaws.com/starter/@angular/platform-browser/platform-browser.umd.js"></script>
 		<script src="https://rumblex.s3.amazonaws.com/starter/@angular/platform-browser-dynamic/platform-browser-dynamic.umd.js"></script>
+
+		<!-- 1. Load styles -->
+		<link type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+		<link type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css" rel="stylesheet" />
+		<link type="text/css" href="ng-rg.css" rel="stylesheet">
+
 		<!-- 2. Load our 'modules' -->
-		<script src='app/app.component.js'></script>
-		<script src='app/main.js'></script>
+		<script src="app/app.component.js"></script>
+		<script src="app/main.js"></script>
 	</head>
 	<!-- 3. Display the application -->
 	<body>
-		<my-app>Loading...</my-app>
+		<main class="container">
+			<my-app>Loading...</my-app>
+		</main>
 	</body>
 </html>
