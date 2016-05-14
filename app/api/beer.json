@@ -73,7 +73,7 @@
   {
     "name": "Marble Wildflower Wheat",
     "description": "An unfiltered American Wheat Ale accented with New Mexico wildflower honey. Our liquid sopapilla.",
-    "imageUrl": "",
+    "imageUrl": "../img/beer/marble-wildflower-wheat",
     "coordinates": {"savory": 0.15, "sweet": 0.8, "spice": 0.17}
   },
   {
