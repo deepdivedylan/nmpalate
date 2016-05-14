@@ -19,7 +19,7 @@ export class BeerService{
 
 	private extractData(response: Response){
 		if(response.status < 200 || response.status >= 300) {
-			throw(new Error("Bad response tatus: " + response.status))
+			throw(new Error("Bad response status: " + response.status))
 		}
 		return(response.json());
 	}
