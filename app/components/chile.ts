@@ -9,8 +9,7 @@ import {Chile} from "../classes/chile";
 
 export class ChileComponent {
 
-	constructor (private chileService: ChileService) {
-	}
+	constructor (private chileService: ChileService) {}
 
 	chileList:Chile[];
 	errorMessage:string;

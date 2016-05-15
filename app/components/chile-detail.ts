@@ -8,7 +8,7 @@ import {Chile} from "../classes/chile";
     providers: [ChileService]
 })
 
-export class BeerDetailComponent implements OnInit {
+export class ChileDetailComponent implements OnInit {
     constructor(private chileService: ChileService, private router: Router) {}
 
     chile: Chile;
