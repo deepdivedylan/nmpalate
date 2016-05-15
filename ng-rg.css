@@ -37,5 +37,7 @@ body {
 }
 
 .img-responsive {
-@media screen  }
-	img.ri { max-width: 90%; }
+	height: 300px;
+	width: 300px;
+	padding: 1.5rem;
+}
