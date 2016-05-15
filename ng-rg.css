@@ -1,7 +1,6 @@
 #navbar-logo {
 	height: 34px;
 	margin-top: -8px;
-	color: darkslategray;
 }
 
 .img-framed {
@@ -30,6 +29,7 @@ body {
 #main-nav {
 	background: #B73E47;
 	border-color: gray;
+	color: darkslategray;
 }
 
 
