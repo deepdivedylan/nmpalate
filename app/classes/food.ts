@@ -6,6 +6,6 @@ export class Food {
 		public name: string,
 		public description: string,
 		public imageUrl: string,
-		public cooridinates: TasteCoordinates
+		public coordinates: TasteCoordinates
 	) {}
 }
