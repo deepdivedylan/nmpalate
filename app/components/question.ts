@@ -34,7 +34,6 @@ export class QuestionComponent {
     ngOnInit() {
         this.getQuestions();
         this.getAnswers();
-        this.cookieService.put("key","value");
     }
 
     getQuestions() {
@@ -42,8 +41,12 @@ export class QuestionComponent {
             .subscribe(
                 questions => {
                     this.questionList = questions;
-                    this.currentQuestion = questions[this.currentQuestionId];
+                    this.currentQuestion = questions[Number(this.currentQuestionId) - 1];
                     this.questionText = this.currentQuestion.text;
+                    //set cookie at the beginning of the quiz, overwriting old results if present
+                    if(this.currentQuestionId == "1") {
+                        this.initializeCookie();
+                    }
                 },
                 error => this.errorMessage = error
 
@@ -71,11 +74,42 @@ export class QuestionComponent {
         return answersByQuestion;
     }
 
-    onSelect() {
+    onSelect(score, axis) {
+        this.calculateScore(score, axis);
         if(Number(this.currentQuestionId) <= 8) {
             this.router.navigate(['/question', Number(this.currentQuestionId) + 1]);
         } else {
             this.router.navigate(['/result']);
         }
+    }
+
+    calculateScore(score, axis) {
+        let savedScore = this.cookieService.get("score");
+        //set score to default if it does not exist, and calculate from there
+        if (!savedScore) {
+            savedScore = ("0.5,0.5,0.5");
+        }
+        let dividedScore = savedScore.split(",");
+        //cookie values are in alphabetical order; savory, spicy, sweet
+        //if an unexpected axis name appears, the score will simply remain the same
+        if(axis === "savory") {
+            dividedScore[0] = Number(dividedScore[0]) + score; //TODO: check boundary conditions
+        } else if (axis === "spicy") {
+            dividedScore[1] = Number(dividedScore[1]) + score;
+        } else if (axis === "sweet") {
+            dividedScore[2] = Number(dividedScore[2]) + score;
+        }
+
+        let newScore = "";
+        dividedScore.forEach(function(entry) {
+           newScore = newScore + entry + ',';
+        });
+
+        this.cookieService.put("score", newScore);
+    }
+
+    initializeCookie() {
+        //cookie values are in alphabetical order: savory, spicy, sweet
+        this.cookieService.put("score", "0.5,0.5,0.5");
     }
 }
