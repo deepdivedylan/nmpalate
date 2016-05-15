@@ -8,6 +8,10 @@
 			<a class="navbar-brand" [routerLink]="['/']"><img id="navbar-logo" src="/app/img/nav-logo.png"></a>
 		</div>
 
+		<div class="nav navbar-nav navbar-left hidden-xs hidden-sm">
+			<em>Find Your Ideal New Mexican Meal</em>
+		</div>
+
 		<div class="navbar-collapse" [ngClass]="{collapse: navCollapse}">
 			<ul class="nav navbar-nav navbar-right" (click)="toggleCollapse();">
 				<li><a [routerLink]="['/']">Home</a></li>
