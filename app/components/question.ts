@@ -90,11 +90,11 @@ export class QuestionComponent {
             savedScore = ("0.5,0.5,0.5");
         }
         let dividedScore = savedScore.split(",");
-        //cookie values are in alphabetical order; savory, spicy, sweet
+        //cookie values are in alphabetical order; savory, spice, sweet
         //if an unexpected axis name appears, the score will simply remain the same
         if(axis === "savory") {
             dividedScore[0] = Number(dividedScore[0]) + score; //TODO: check boundary conditions
-        } else if (axis === "spicy") {
+        } else if (axis === "spice") {
             dividedScore[1] = Number(dividedScore[1]) + score;
         } else if (axis === "sweet") {
             dividedScore[2] = Number(dividedScore[2]) + score;
@@ -107,6 +107,8 @@ export class QuestionComponent {
                 newScore = newScore + ',';
             }
         });
+
+        console.log(newScore);
 
         this.cookieService.put("score", newScore);
     }
