@@ -92,7 +92,6 @@ export class ResultComponent {
 			});
 			this.selectedChile = currentChile;
 
-			console.log(this.foodList);
 			let currentFood = undefined;
 			let foodDistance = Number.POSITIVE_INFINITY;
 			let newFoodDistance = Number.POSITIVE_INFINITY;
