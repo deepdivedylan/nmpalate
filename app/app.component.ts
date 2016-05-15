@@ -22,8 +22,8 @@ import "rxjs/Rx";
 @Routes([
 	{path: "/beers", component: BeerComponent},
 	{path: "/beer/:id", component: BeerDetailComponent},
-	{path: "/chile", component: ChileComponent},
-	{path: "/chile", component: ChileDetailComponent},
+	{path: "/chiles", component: ChileComponent},
+	{path: "/chile/:id", component: ChileDetailComponent},
 	{path: "/result", component: ResultComponent},
 	{path: "/about", component: AboutComponent},
 	{path: "/question/:id", component: QuestionComponent},
