@@ -29,4 +29,7 @@ export class AnswersComponent {
 
             );
     }
+    onSelect(hero: Hero) {
+        this.router.navigate(['/question', question.id]);//need this on question???
+    }
 }

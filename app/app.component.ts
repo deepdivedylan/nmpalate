@@ -18,7 +18,7 @@ import "rxjs/Rx";
 @Routes([
 	{path: "/result", component: ResultComponent},
 	{path: "/about", component: AboutComponent},
-	{path: "/question", component: QuestionComponent},
+	{path: "/question/:id", component: QuestionComponent},
 	{path: "/", component: SplashComponent},
 	{path: "*", component: SplashComponent}
 ])
