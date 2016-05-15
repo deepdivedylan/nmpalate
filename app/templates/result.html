@@ -1,52 +1,52 @@
 <h2>Results</h2>
 <div class="container-fluid">
-    <div class="row">
-        <div class="col-md-12 results-title"><h3>Your recommended food is: Food Placeholder</h3></div>
-    </div>
-    <div class="row">
-        <div class="col-xs-6">
-            <img class="img-responsive" src="https://placekitten.com/g/200/200" alt="picture of food"/>
-        </div>
-        <div class="col-xs-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at augue lectus. In gravida gravida ipsum, et commodo elit maximus ut. Quisque sagittis orci sit amet sem vestibulum auctor. Curabitur vel dolor fringilla eros gravida dignissim eget consectetur arcu. Nam purus massa, cursus ac semper vel, lobortis at nulla. Proin scelerisque lectus eu odio maximus tempor. In vel libero at elit vehicula placerat eget quis mauris. Vivamus condimentum tortor et velit condimentum, in congue ipsum pharetra. Vestibulum lobortis sollicitudin vulputate. Sed viverra aliquet magna sit amet sagittis.
-
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-12"><h3>Your recommended chile is: Chile Placeholder</h3></div>
-    </div>
-    <div class="row">
-        <div class="col-xs-6">
-            <img class="img-responsive" src="https://placekitten.com/g/200/200" alt="picture of chile"/>
-        </div>
-        <div class="col-xs-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at augue lectus. In gravida gravida ipsum, et commodo elit maximus ut. Quisque sagittis orci sit amet sem vestibulum auctor. Curabitur vel dolor fringilla eros gravida dignissim eget consectetur arcu. Nam purus massa, cursus ac semper vel, lobortis at nulla. Proin scelerisque lectus eu odio maximus tempor. In vel libero at elit vehicula placerat eget quis mauris. Vivamus condimentum tortor et velit condimentum, in congue ipsum pharetra. Vestibulum lobortis sollicitudin vulputate. Sed viverra aliquet magna sit amet sagittis.
-
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-12"><h3>Your recommended beer is: Beer Placeholder</h3></div>
-    </div>
-    <div class="row">
-        <div class="col-xs-6">
-            <img class="img-responsive" src="https://placekitten.com/g/200/200" alt="picture of beer"/>
-        </div>
-        <div class="col-xs-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at augue lectus. In gravida gravida ipsum, et commodo elit maximus ut. Quisque sagittis orci sit amet sem vestibulum auctor. Curabitur vel dolor fringilla eros gravida dignissim eget consectetur arcu. Nam purus massa, cursus ac semper vel, lobortis at nulla. Proin scelerisque lectus eu odio maximus tempor. In vel libero at elit vehicula placerat eget quis mauris. Vivamus condimentum tortor et velit condimentum, in congue ipsum pharetra. Vestibulum lobortis sollicitudin vulputate. Sed viverra aliquet magna sit amet sagittis.
-
-        </div>
-    </div>
-    <div class="row">
-    <h3 class="col-md-12">Share Your Results</h3>
-</div>
-    <div class="row">
-        <div class="col-xs-4">
-            <button class="btn twitter-button">
-                <a href="https://twitter.com/share" class="twitter-share-button" data-size="large">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                </a>
-            </button>
-        </div>
-        <div class="col-xs-4">Facebook</div>
-        <a href="https://www.pinterest.com/pin/create/button/">
-            <img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png" />
-        </a>
-    </div>
+	<div class="row">
+		<div class="col-md-12 results-title"><h3>Your recommended food is: {{ foodName }}</h3></div>
+	</div>
+	<div class="row">
+		<div class="col-xs-6">
+			<img class="img-responsive" src="{{ foodImageUrl }}" alt="picture of food"/>
+		</div>
+		<div class="col-xs-6">
+			{{ foodDescription }}
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12"><h3>Your recommended chile is: {{ chileName }}</h3></div>
+	</div>
+	<div class="row">
+		<div class="col-xs-6">
+			<img class="img-responsive" src="{{ chileImageUrl }}" alt="picture of chile"/>
+		</div>
+		<div class="col-xs-6">
+			{{ chileDescription }}
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12"><h3>Your recommended beer is: {{ beerName}}</h3></div>
+	</div>
+	<div class="row">
+		<div class="col-xs-6">
+			<img class="img-responsive" src="{{ beerImageUrl }}" alt="picture of beer"/>
+		</div>
+		<div class="col-xs-6">
+			{{ beerDescription }}
+		</div>
+	</div>
+	<div class="row">
+		<h3 class="col-md-12">Share Your Results</h3>
+	</div>
+	<div class="row">
+		<div class="col-xs-4">
+			<button class="btn twitter-button">
+				<a href="https://twitter.com/share" class="twitter-share-button" data-size="large">
+					<i class="fa fa-twitter" aria-hidden="true"></i>
+				</a>
+			</button>
+		</div>
+		<div class="col-xs-4">Facebook</div>
+		<a href="https://www.pinterest.com/pin/create/button/">
+			<img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png" />
+		</a>
+	</div>
 </div>

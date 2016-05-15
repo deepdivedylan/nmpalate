@@ -26,6 +26,19 @@ export class ResultComponent {
 		selectedChile: Chile;
 		selectedFood: Food;
 
+		beerDescription: string;
+		beerImageUrl: string;
+		beerName: string;
+
+		chileDescription: string;
+		chileImageUrl: string;
+		chileName: string;
+
+		foodDescription: string;
+		foodImageUrl: string;
+		foodName: string;
+
+
 		ngOnInit() {
 			this.getBeers();
 			this.getChile();
@@ -79,6 +92,9 @@ export class ResultComponent {
 				}
 			});
 			this.selectedBeer = currentBeer;
+			this.beerDescription = currentBeer.description;
+			this.beerImageUrl = currentBeer.imageUrl;
+			this.beerName = currentBeer.name;
 
 			let currentChile = undefined;
 			let chileDistance = Number.POSITIVE_INFINITY;
@@ -91,6 +107,9 @@ export class ResultComponent {
 				}
 			});
 			this.selectedChile = currentChile;
+			this.chileDescription = currentChile.description;
+			this.chileImageUrl = currentChile.imageUrl;
+			this.chileName = currentChile.name;
 
 			let currentFood = undefined;
 			let foodDistance = Number.POSITIVE_INFINITY;
@@ -103,5 +122,8 @@ export class ResultComponent {
 				}
 			});
 			this.selectedFood = currentFood;
+			this.foodDescription = currentFood.description;
+			this.foodImageUrl = currentFood.imageUrl;
+			this.foodName = currentFood.name;
 		}
 	}
