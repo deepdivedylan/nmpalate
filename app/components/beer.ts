@@ -3,14 +3,13 @@ import {BeerService} from "../services/beer.service";
 import {Beer} from "../classes/beer";
 
 @Component({
-	templateUrl: "app/templates/splash.html",
+	templateUrl: "app/templates/beer.html",
 	providers: [BeerService]
 
 })
 
 export class BeerComponent	{
-	constructor(private beerService: BeerService) {
-	}
+	constructor(private beerService: BeerService) {}
 
 	beerList:Beer[];
 	errorMessage:string;
@@ -20,12 +19,14 @@ export class BeerComponent	{
 	}
 
 	getBeers() {
-		this.beerService.getBeer()
-			.subscribe(
-				Beers => {
-					this.beerList = Beers;
-				},
-				error => this.errorMessage = error
-			);
+		this.beerService.getBeers()
+		.subscribe(
+			Beers => {
+				this.beerList = Beers;
+			},
+			error => this.errorMessage = error
+		);
 	}
+
+
 }

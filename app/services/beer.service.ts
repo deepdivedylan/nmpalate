@@ -6,15 +6,21 @@ import {TasteCoordinates} from "../classes/taste-coordinates";
 
 
 @Injectable()
-export class BeerService{
-	constructor(private http: Http){}
+export class BeerService {
+	constructor(private http: Http) {}
 
-	private beerUrl= "/app/api/beer.json";
+	private beerUrl = "/app/api/beer.json";
 
-	getBeer(): Observable<Beer[]>{
+	getBeers(): Observable<Beer[]>{
 		return(this.http.get(this.beerUrl)
 			.map(this.extractData)
 			.catch(this.handleError));
+	}
+
+	getBeer(id: number | string): Beer {
+		var beers = this.getBeers();
+		var beer = beers.mergeAll().filter(result => result.id == +id)[0];
+		return(beer);
 	}
 
 	private extractData(response: Response){
@@ -24,8 +30,7 @@ export class BeerService{
 		return(response.json());
 	}
 
-	private handleError(error:any){
-
+	private handleError(error:any) {
 		let message = error.message;
 		console.log(message);
 		return(Observable.throw(message));
