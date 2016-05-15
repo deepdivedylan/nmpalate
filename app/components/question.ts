@@ -47,20 +47,21 @@ export class QuestionComponent {
         this.answersService.getAnswers()
             .subscribe(
                 answers => {
-                    //this.answerList = answers;
-                    this.getAnswersByQuestionId(this.currentQuestionId, answers);
+                    let fullAnswerList = answers;
+                    this.answerList = this.getAnswersByQuestionId(this.currentQuestionId, fullAnswerList);
                 },
                 error => this.errorMessage = error
             );
     }
 
     getAnswersByQuestionId(id, answers) {
+        let answersByQuestion = [];
         answers.forEach(function(entry) {
-            console.log(entry.questionId);
            if (entry.questionId == id) {
-               this.answerList.push(entry);
+               answersByQuestion.push(entry)
            }
         });
+        return answersByQuestion;
     }
 
     onSelect() {
