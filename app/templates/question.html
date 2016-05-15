@@ -1,23 +1,8 @@
-<div *ngFor="let question of questionList; let i = index">
 	<div class="row">
 		<p>{{ question.text }}</p>
 	</div>
-	<div class="row skip-line">
-		<!--
-			<div class="col-xs-6">
-				<img class="img-framed img-rounded img-responsive" src="{{ answerList. }}">
-			</div>
-			<div class="col-xs-6">
-				<img class="img-framed img-rounded img-responsive" src="{{  }}">
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-xs-6">
-				<img class="img-framed img-rounded img-responsive" src="{{  }}">
-			</div>
-			<div class="col-xs-6">
-				<img class="img-framed img-rounded img-responsive" src="{{  }}">
-			</div>-->
+	<div *ngFor="let answer in answerList" class="row skip-line">
+		<img class="img-responsive col-md-6" src="{{answer.imageUrl}}" alt="{{answer.text}}"/>
 	<button (click)="onSelect();"></button>
 	</div>
-</div>
+
