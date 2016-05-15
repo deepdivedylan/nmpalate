@@ -7,6 +7,8 @@ import {BeerComponent} from "./components/beer";
 import {BeerDetailComponent} from "./components/beer-detail";
 import {ChileComponent} from "./components/chile";
 import {ChileDetailComponent} from "./components/chile-detail";
+import {FoodComponent} from "./components/food";
+import {FoodDetailComponent} from "./components/food-detail";
 import {SplashComponent} from "./components/splash";
 import {ResultComponent} from "./components/result";
 import {QuestionComponent} from "./components/question";
@@ -24,6 +26,8 @@ import "rxjs/Rx";
 	{path: "/beer/:id", component: BeerDetailComponent},
 	{path: "/chiles", component: ChileComponent},
 	{path: "/chile/:id", component: ChileDetailComponent},
+	{path: "/foods", component: FoodComponent},
+	{path: "/food/:id", component: FoodDetailComponent},
 	{path: "/result", component: ResultComponent},
 	{path: "/about", component: AboutComponent},
 	{path: "/question/:id", component: QuestionComponent},

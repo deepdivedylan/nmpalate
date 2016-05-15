@@ -9,10 +9,10 @@ import {Food} from "../classes/food";
 
 export class FoodComponent{
 
-	constructor(private foodService: FoodService) {
-	}
-		foodList:Food[];
-		errorMessage:string;
+	constructor(private foodService: FoodService) {}
+	
+	foodList:Food[];
+	errorMessage:string;
 
 	ngOnInit() {
 		this.getFoods();
