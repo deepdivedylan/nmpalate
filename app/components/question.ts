@@ -57,8 +57,7 @@ export class QuestionComponent {
         this.answersService.getAnswers()
             .subscribe(
                 answers => {
-                    let fullAnswerList = answers;
-                    this.answerList = this.getAnswersByQuestionId(this.currentQuestionId, fullAnswerList);
+                    this.answerList = this.getAnswersByQuestionId(this.currentQuestionId, answers);
                 },
                 error => this.errorMessage = error
             );
@@ -111,9 +110,6 @@ export class QuestionComponent {
                 newScore = newScore + ',';
             }
         });
-
-        console.log(newScore);
-
         this.cookieService.put("score", newScore);
     }
 
