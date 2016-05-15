@@ -11,7 +11,13 @@
 	margin-bottom: 1rem;
 }
 
+.twitter-button {
+	background-color: #55acee;
+}
 
+.twitter-button i {
+	color: #ffffff
+}
 
 
 
