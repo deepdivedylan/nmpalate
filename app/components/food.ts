@@ -1,11 +1,11 @@
-import {Component, Oninit} from "@angular/core";
+import {Component, OnInit} from "@angular/core";
 import {FoodService}  from "../services/food.service";
 import {Food} from "../classes/food";
 
 @Component ({
-	templatUrl: "app/templates/food.html",
-	providers: [FoodService]
-)}
+	templateUrl: "app/templates/food.html",
+	providers: [FoodService]}
+)
 
 export class FoodComponent{
 
