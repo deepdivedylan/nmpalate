@@ -21,14 +21,13 @@
 
 body {
 	font-family: "tablet-gothic-condensed", "arial narrow", arial, verdana, sans-serif;
-	background: #2ABB9B;
+	background: #04A389;
 	color: darkslategray;
 	font-size: 1.7rem;
 }
 
 #main-nav {
-	background : #EC644B;
-	color:salmon;
+	background: #B73E47;
 	border-color: gray;
 }
 
