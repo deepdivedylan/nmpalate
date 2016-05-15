@@ -19,16 +19,17 @@
 	color: #ffffff
 }
 
-body{
-	font-family : "tablet-gothic-condensed", "arial narrow", arial, verdana, sans-serif;
-	background : mediumturquoise;
-	color :saddlebrown;
+body {
+	font-family: "tablet-gothic-condensed", "arial narrow", arial, verdana, sans-serif;
+	background: #2fd9b1;
+	color: darkslategray;
+	font-size: 1.7rem;
 }
 
-#main-nav{
+#main-nav {
 	background :coral;
 	color:salmon;
-	border-color: red;
+	border-color: gray;
 }
 
 
