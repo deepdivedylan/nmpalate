@@ -36,3 +36,6 @@ body {
 	color: black;
 }
 
+.img-responsive {
+@media screen  }
+	img.ri { max-width: 90%; }
