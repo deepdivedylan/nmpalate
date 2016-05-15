@@ -44,3 +44,6 @@ var foodAxes = readAxes("app/api/food.json");
 var beerResult = distributeStatistics(beerAxes);
 var chileResult = distributeStatistics(chileAxes);
 var foodResult = distributeStatistics(foodAxes);
+var netResult = {beer: beerResult, chile: chileResult, food: foodResult};
+
+fs.writeFileSync("app/api/statistic.json", JSON.stringify(netResult), {encoding: "UTF-8", mode: 0o644});
