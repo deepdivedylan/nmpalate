@@ -84,6 +84,7 @@ export class QuestionComponent {
     }
 
     calculateScore(score, axis) {
+        let netScore;
         let savedScore = this.cookieService.get("score");
         //set score to default if it does not exist, and calculate from there
         if (!savedScore) {
@@ -93,11 +94,14 @@ export class QuestionComponent {
         //cookie values are in alphabetical order; savory, spice, sweet
         //if an unexpected axis name appears, the score will simply remain the same
         if(axis === "savory") {
-            dividedScore[0] = Number(dividedScore[0]) + score; //TODO: check boundary conditions
+            netScore = Number(dividedScore[0]) + score;
+            dividedScore[0] = this.checkScoreBoundary(netScore);
         } else if (axis === "spice") {
-            dividedScore[1] = Number(dividedScore[1]) + score;
+            netScore = Number(dividedScore[1]) + score;
+            dividedScore[1] = this.checkScoreBoundary(netScore);
         } else if (axis === "sweet") {
-            dividedScore[2] = Number(dividedScore[2]) + score;
+            netScore = Number(dividedScore[2]) + score;
+            dividedScore[2] = this.checkScoreBoundary(netScore);
         }
 
         let newScore = "";
@@ -111,6 +115,15 @@ export class QuestionComponent {
         console.log(newScore);
 
         this.cookieService.put("score", newScore);
+    }
+
+    checkScoreBoundary(score) {
+        if (score > 1) {
+            return 1;
+        } else if (score < 0) {
+            return 0;
+        }
+        return score;
     }
 
     initializeCookie() {
