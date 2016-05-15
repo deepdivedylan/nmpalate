@@ -68,6 +68,10 @@ export class QuestionComponent {
     }
 
     onSelect() {
-        this.router.navigate(['/question', Number(this.currentQuestionId) + 1])
+        if(Number(this.currentQuestionId) <= 8) {
+            this.router.navigate(['/question', Number(this.currentQuestionId) + 1])
+        } else {
+            console.log('test');
+        }
     }
 }
