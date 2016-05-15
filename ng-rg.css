@@ -50,3 +50,7 @@ body {
 	color: white;
 	background-color: #55acee;
 }
+
+.external-links a {
+	color: #2f4f4f
+}
