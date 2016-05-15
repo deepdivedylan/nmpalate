@@ -182,13 +182,13 @@
 	{
 		"questionId": 8,
 		"text": "Toaster strudel",
-		"imageUrl": "???",
+		"imageUrl": "app/image/answer/toasterStrudel.jpg",
 		"score": 0.21
 	},
 	{
 		"questionId": 8,
 		"text": "Pop Tart",
-		"imageUrl": "???",
+		"imageUrl": "app/image/answer/popTart.jpg",
 		"score": 0.25
 	},
 	{
