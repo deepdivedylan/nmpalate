@@ -194,25 +194,25 @@
 	{
 		"questionId": 9,
 		"text": "Cole Slaw",
-		"imageUrl": "???",
+		"imageUrl": "/app/img/answer/cole.jpg",
 		"score": -0.21
 	},
 	{
 		"questionId": 9,
 		"text": "macaroni n cheese",
-		"imageUrl": "???",
+		"imageUrl": "/app/img/answer/macncheese.jpg",
 		"score": -0.19
 	},
 	{
 		"questionId": 9,
 		"text": "Cheesecake",
-		"imageUrl": "???",
+		"imageUrl": "/app/img/answer/cheesecake.jpg",
 		"score": 0.28
 	},
 	{
 		"questionId": 9,
 		"text": "push pop",
-		"imageUrl": "???",
+		"imageUrl": "/app/img/answer/pushpop.jpg",
 		"score": 0.21
 	}
 ]
