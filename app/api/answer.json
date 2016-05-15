@@ -158,37 +158,37 @@
 	{
 		"questionId": 7,
 		"text": "Taco",
-		"imageUrl": "taco.jpg",
+		"imageUrl": "/taco.jpg",
 		"score": -0.7
 	},
 	{
 		"questionId": 7,
 		"text": "Rondele",
-		"imageUrl": "ron.jpg",
+		"imageUrl": "/ron.jpg",
 		"score": -0.21
 	},
 	{
 		"questionId": 8,
 		"text": "Cheese",
-		"imageUrl": "app/image/answer/cheese.jpg",
+		"imageUrl": "/app/image/answer/cheese.jpg",
 		"score": -0.21
 	},
 	{
 		"questionId": 8,
 		"text": "Butter",
-		"imageUrl": "app/image/answer/butter.jpg",
+		"imageUrl": "/app/image/answer/butter.jpg",
 		"score": -0.25
 	},
 	{
 		"questionId": 8,
 		"text": "Toaster strudel",
-		"imageUrl": "app/image/answer/toasterStrudel.jpg",
+		"imageUrl": "/app/image/answer/toasterStrudel.jpg",
 		"score": 0.21
 	},
 	{
 		"questionId": 8,
 		"text": "Pop Tart",
-		"imageUrl": "app/image/answer/popTart.jpg",
+		"imageUrl": "/app/image/answer/popTart.jpg",
 		"score": 0.25
 	},
 	{
