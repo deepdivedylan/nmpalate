@@ -24,6 +24,8 @@ export class QuestionComponent {
     answerList: Answers[];
     errorMessage: string;
     currentQuestionId: string;
+    currentQuestion: Question;
+    questionText: string;
 
     routerOnActivate(curr: RouteSegment) {
         this.currentQuestionId = curr.getParam('id');
@@ -40,6 +42,8 @@ export class QuestionComponent {
             .subscribe(
                 questions => {
                     this.questionList = questions;
+                    this.currentQuestion = questions[this.currentQuestionId];
+                    this.questionText = this.currentQuestion.text;
                 },
                 error => this.errorMessage = error
 
