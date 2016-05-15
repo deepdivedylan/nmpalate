@@ -27,10 +27,10 @@ function readAxes(filename) {
 	var json = fs.readFileSync(filename, "UTF-8");
 	var blob = JSON.parse(json);
 	for(var index in blob) {
-		var coordiniates = blob[index].coordiniates;
-		if(typeof coordiniates === "object") {
-			for(var axis in coordiniates) {
-				axes[axis].push(coordiniates[axis]);
+		var coordinates = blob[index].coordinates;
+		if(typeof coordinates === "object") {
+			for(var axis in coordinates) {
+				axes[axis].push(coordinates[axis]);
 			}
 		}
 	}
@@ -41,5 +41,6 @@ var beerAxes = readAxes("app/api/beer.json");
 var chileAxes = readAxes("app/api/chile.json");
 var foodAxes = readAxes("app/api/food.json");
 
+var beerResult = distributeStatistics(beerAxes);
+var chileResult = distributeStatistics(chileAxes);
 var foodResult = distributeStatistics(foodAxes);
-console.log(foodResult);
