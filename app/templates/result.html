@@ -1,3 +1,14 @@
+
+<!--facebook-->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+	js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+	fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <h2>Results</h2>
 <div class="container-fluid">
 	<div class="row">
@@ -23,7 +34,7 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-md-12"><h3>Your recommended beer is: {{ beerName}}</h3></div>
+		<div class="col-md-12"><h3>Your recommended beer is: {{beerName}}</h3></div>
 	</div>
 	<div class="row">
 		<div class="col-xs-6">
@@ -44,9 +55,14 @@
 				</a>
 			</button>
 		</div>
-		<div class="col-xs-4">Facebook</div>
+
+		<div class="fb-share-button col-xs-4" data-href="https://nmpallete.2016.angularattack.io" data-layout="button" data-mobile-iframe="false"></div>
+
 		<a href="https://www.pinterest.com/pin/create/button/">
 			<img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png" />
 		</a>
 	</div>
 </div>
+
+<a href="https://twitter.com/share" class="twitter-share-button" data-text="Site"></a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
