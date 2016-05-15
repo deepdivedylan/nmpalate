@@ -4,8 +4,8 @@ import {Chile} from "../classes/chile";
 
 @Component({
 	templateUrl: "app/templates/chile.html",
-	providers: [ChileService]
-})
+	providers: [ChileService]}
+)
 
 export class ChileComponent {
 
