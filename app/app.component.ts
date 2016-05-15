@@ -4,6 +4,7 @@ import {Routes, Router, ROUTER_DIRECTIVES} from "@angular/router";
 import {HTTP_PROVIDERS} from "@angular/http";
 import {AboutComponent} from "./components/about";
 import {BeerComponent} from "./components/beer";
+import {BeerDetailComponent} from "./components/beer-detail";
 import {SplashComponent} from "./components/splash";
 import {ResultComponent} from "./components/result";
 import {QuestionComponent} from "./components/question";
@@ -17,7 +18,8 @@ import "rxjs/Rx";
 })
 
 @Routes([
-	{path: "/beer", component: BeerComponent},
+	{path: "/beers", component: BeerComponent},
+	{path: "/beer/:id", component: BeerDetailComponent},
 	{path: "/result", component: ResultComponent},
 	{path: "/about", component: AboutComponent},
 	{path: "/question/:id", component: QuestionComponent},

@@ -5,7 +5,7 @@ export class Beer{
 		public id: number,
 		public name: string,
 		public description: string,
-		public imgUrl: string,
+		public imageUrl: string,
 		public coordinates: TasteCoordinates
 	){}
 }

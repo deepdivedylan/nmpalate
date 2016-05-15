@@ -4,7 +4,7 @@ export class Chile{
 	constructor(
 		public name: string,
 		public description: string,
-		public imgUrl: string,
+		public imageUrl: string,
 		public coordinates: TasteCoordinates
 
 	){}
