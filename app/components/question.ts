@@ -101,8 +101,11 @@ export class QuestionComponent {
         }
 
         let newScore = "";
-        dividedScore.forEach(function(entry) {
-           newScore = newScore + entry + ',';
+        dividedScore.forEach(function(entry, index) {
+           newScore = newScore + entry;
+            if(index != 2) {
+                newScore = newScore + ',';
+            }
         });
 
         this.cookieService.put("score", newScore);
