@@ -146,25 +146,25 @@
 	{
 		"questionId": 7,
 		"text": "Key Lime Pie",
-		"imageUrl": "???",
+		"imageUrl": "/app/img/answer/keylime.jpg",
 		"score": 0.21
 	},
 	{
 		"questionId": 7,
 		"text": "Skittles",
-		"imageUrl": "???",
+		"imageUrl": "/app/img/answer/skittles.jpg",
 		"score": 0.21
 	},
 	{
 		"questionId": 7,
 		"text": "Taco",
-		"imageUrl": "???",
+		"imageUrl": "taco.jpg",
 		"score": -0.7
 	},
 	{
 		"questionId": 7,
 		"text": "Rondele",
-		"imageUrl": "???",
+		"imageUrl": "ron.jpg",
 		"score": -0.21
 	},
 	{
