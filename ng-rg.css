@@ -19,6 +19,10 @@
 	color: #ffffff
 }
 
+.share-buttons {
+	margin-bottom: 2rem;
+}
+
 body {
 	font-family: "tablet-gothic-condensed", "arial narrow", arial, verdana, sans-serif;
 	background: #04A389;
