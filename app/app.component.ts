@@ -31,4 +31,6 @@ export class NmPallete {
 	toggleCollapse() {
 		this.navCollapse = !this.navCollapse;
 	}
+	
+
 }

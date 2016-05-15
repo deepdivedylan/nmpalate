@@ -4,12 +4,14 @@
 		"app":                        "app", // "dist",
 		// "rxjs":                       "https://npmcdn.com/rxjs",
 		// "symbol-observable":		  "https://npmcdn.com/symbol-observable",
-		"@angular":                   "https://npmcdn.com/@angular"
+		"@angular":                   "https://npmcdn.com/@angular",
+		"angular2-cookie":				"https://npmcdn.com/angular2-cookie"
 	};
 	// packages tells the System loader how to load when no filename and/or no extension
 		var packages = {
-		"app":                        { main: "main.js",  defaultExtension: "js" }
+		"app":                        { main: "main.js",  defaultExtension: "js" },
 		// "rxjs":                       { defaultExtension: "js" }
+			"angular2-cookie":			{defaultExtension: "js"}
 	};
 	var packageNames = [
 		"@angular/common",

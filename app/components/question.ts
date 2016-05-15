@@ -4,18 +4,21 @@ import {QuestionService} from "../services/question.service";
 import {AnswersService} from "../services/answers.service";
 import {Question} from "../classes/question";
 import {Answers} from "../classes/answers";
+import {CookieService} from 'angular2-cookie/core';
+
 
 
 @Component({
     templateUrl: "app/templates/question.html",
-    providers: [QuestionService, AnswersService]
+    providers: [QuestionService, AnswersService, CookieService]
 })
 
 export class QuestionComponent {
     constructor (
         private questionService: QuestionService,
         private answersService: AnswersService,
-        private router: Router) {}
+        private router: Router,
+        private cookieService: CookieService) {console.log("constructor");}
 
     questionList: Question[];
     answerList: Answers[];
@@ -24,12 +27,14 @@ export class QuestionComponent {
 
     routerOnActivate(curr: RouteSegment) {
         this.currentQuestionId = curr.getParam('id');
-        console.log(this.currentQuestionId);
     }
 
     ngOnInit() {
         this.getQuestions();
         this.getAnswers();
+        console.log("onInit");
+        this.cookieService.put("key","value");
+
     }
 
     getQuestions() {
