@@ -1,12 +1,6 @@
-import {TasteCoordinates} from "./taste-coordinates";
-
-export class Statistic{
+export class Statistic {
 	constructor(
-		public name: string,
-		public description: string,
-		public imgUrl: string,
-		public coordinates: TasteCoordinates
-	)
-
-
+		public mean: number,
+		public stdev: number
+	) {}
 }
