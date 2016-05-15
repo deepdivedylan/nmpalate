@@ -1,51 +1,56 @@
 <html>
-		<base href="/" />
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>New Mexico Pallete</title>
+	<base href="/" />
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>New Mexico Pallete</title>
 
 
-		<!-- 0. Load libraries -->
-		<!-- IE required polyfill -->
-		<script src="https://rumblex.s3.amazonaws.com/starter/es6-shim/es6-shim.min.js"></script>
-		<script src="https://rumblex.s3.amazonaws.com/starter/zone.js/dist/zone.js"></script>
-		<script src="https://rumblex.s3.amazonaws.com/starter/reflect-metadata/Reflect.js"></script>
-		<script src="https://npmcdn.com/systemjs/dist/system.src.js"></script>
-		<script src="https://npmcdn.com/rxjs/bundles/Rx.min.js"></script>
-		<!--<script src="https://npmcdn.com/angular2-cookie/bundles/angular2-cookie.min.js"></script>-->
+	<!-- 0. Load libraries -->
+	<!-- IE required polyfill -->
+	<script src="https://rumblex.s3.amazonaws.com/starter/es6-shim/es6-shim.min.js"></script>
+	<script src="https://rumblex.s3.amazonaws.com/starter/zone.js/dist/zone.js"></script>
+	<script src="https://rumblex.s3.amazonaws.com/starter/reflect-metadata/Reflect.js"></script>
+	<script src="https://npmcdn.com/systemjs/dist/system.src.js"></script>
+	<script src="https://npmcdn.com/rxjs/bundles/Rx.min.js"></script>
+	<!--<script src="https://npmcdn.com/angular2-cookie/bundles/angular2-cookie.min.js"></script>-->
 
-		<!--twitter-->
-		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+	<!--twitter-->
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
-		<!--pinterest-->
-		<script
-				type="text/javascript"
-				async defer
-				src="//assets.pinterest.com/js/pinit.js"
-		></script>
+	<!--pinterest-->
+	<script
+		type="text/javascript"
+		async defer
+		src="//assets.pinterest.com/js/pinit.js"
+	></script>
 
-		<!-- 1. Load styles -->
-		<link type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
-		<link type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
-		<link rel="shortcut icon" href="/favicon.ico" />
-		<link type="text/css" href="ng-rg.css" rel="stylesheet">
+	<!-- 1. Load styles -->
+	<link type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+	<link type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+	<link rel="shortcut icon" href="/favicon.ico" />
+	<link type="text/css" href="ng-rg.css" rel="stylesheet">
 
-		<!-- 2. Configure SystemJS -->
-		<script src="systemjs.config.js"></script>
-		<script>
-			System.import('app').catch(function(err){ console.error(err); });
-		</script>
+	<!-- 2. Configure SystemJS -->
+	<script src="systemjs.config.js"></script>
+	<script>
+		System.import('app').catch(function(err){ console.error(err); });
+	</script>
 
 	</head>
 	<!-- 3. Display the application -->
 	<body>
-	<nm-pallete>
-		<div class="alert alert-info">
-			<h1><i class="fa fa-spinner fa-spin" aria-hidden="true"></i> Loading</h1>
-			<p>Now loading a truely enchanting gastronomic experience.</p>
-			<p>Seriously. This is going to be awesome&hellip;</p>
-		</div>
-	</nm-pallete>
+		<nm-pallete>
+			<div class="alert alert-info">
+				<h1><i class="fa fa-spinner fa-spin" aria-hidden="true"></i> Loading</h1>
+				<p>Now loading a truely enchanting gastronomic experience.</p>
+				<p>Seriously. This is going to be awesome&hellip;</p>
+				<nav>
+					<div>
+						<img class="img-responsive" src="/app/img/loadscreen.jpg" alt="Collage "/>
+					</div>
+				</nav>
+			</div>
+		</nm-pallete>
 	</body>
 </html>
