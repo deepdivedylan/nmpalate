@@ -25,9 +25,10 @@ body{
 	color :saddlebrown;
 }
 
-nav{
+#main-nav{
 	background :coral;
 	color:salmon;
+	border-color: red;
 }
 
 
