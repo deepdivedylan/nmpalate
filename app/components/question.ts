@@ -18,7 +18,7 @@ export class QuestionComponent {
         private questionService: QuestionService,
         private answersService: AnswersService,
         private router: Router,
-        private cookieService: CookieService) {console.log("constructor");}
+        private cookieService: CookieService) {}
 
     questionList: Question[];
     answerList: Answers[];
@@ -32,9 +32,7 @@ export class QuestionComponent {
     ngOnInit() {
         this.getQuestions();
         this.getAnswers();
-        console.log("onInit");
         this.cookieService.put("key","value");
-
     }
 
     getQuestions() {
@@ -70,7 +68,6 @@ export class QuestionComponent {
     }
 
     onSelect() {
-        this.router.navigate(['/question', this.currentQuestionId + 1])
-            //to account for: last question, make sure you get ID
+        this.router.navigate(['/question', Number(this.currentQuestionId) + 1])
     }
 }
