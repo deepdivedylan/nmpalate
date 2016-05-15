@@ -2,12 +2,20 @@
 var fs = require("fs");
 var statistics = require("statistics");
 
-var theData = [0.1, 0.4, 1.8, 1.2, 8.6, 0.75];
-var jsaul = statistics();
+function distributeStatistics(axes) {
+	var result = {savory: {mean: 0.0, stdev: 0.0}, spice: {mean: 0.0, stdev: 0.0}, sweet: {mean: 0.0, stdev: 0.0}};
+	var statisticians = {savory: statistics(), spice: statistics(), sweet: statistics()};
 
-theData.forEach(function(item) {
-	jsaul.value(item);
-});
+	for(var statistician in statisticians) {
+		for(var index in axes[statistician]) {
+			statisticians[statistician].value(axes[statistician][index]);
+		}
+		result[statistician].mean = statisticians[statistician].mean;
+		result[statistician].stdev = statisticians[statistician].stdev;
+	}
+
+	return(result);
+}
 
 function readAxes(filename) {
 	var axes = {};
@@ -32,3 +40,6 @@ function readAxes(filename) {
 var beerAxes = readAxes("app/api/beer.json");
 var chileAxes = readAxes("app/api/chile.json");
 var foodAxes = readAxes("app/api/food.json");
+
+var foodResult = distributeStatistics(foodAxes);
+console.log(foodResult);
