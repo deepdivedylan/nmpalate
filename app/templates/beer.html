@@ -1,11 +1,10 @@
-<div class="row">
-	<div class="col-md-12"><h3>Your recommended beer is:__BEER__ </h3></div>
-</div>
-<div class="row">
-	<div class="col-xs-6">
-		<img class="img-responsive" src="https://placekitten.com/g/200/200" alt="picture of beer"/>
+<h1>The Best in New Mexican Beers</h1>
+<div class="row" *ngFor="let beer of beerList">
+	<div class="col-sm-3">
+		<img class="img-responsive img-rounded" src="{{ beer.imageUrl }}" />
 	</div>
-	<div class="col-xs-6">
-
+	<div class="col-sm-9">
+		<h2>{{ beer.name }}</h2>
+		<p>{{ beer.description }}</p>
 	</div>
 </div>
