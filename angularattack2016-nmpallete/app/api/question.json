@@ -1,0 +1,48 @@
+[
+	{
+		"id": 1,
+		"text": "Select Your Favorite Food",
+		"axis": "savory"
+	},
+	{
+		"id": 2,
+		"text": "Select Your Favorite Food",
+		"axis": "savory"
+	},
+	{
+		"id": 3,
+		"text": "Select Your Favorite Food",
+		"axis": "savory"
+	},
+	{
+		"id": 4,
+		"text": "Select Your Favorite Food",
+		"axis": "spice"
+	},
+	{
+		"id": 5,
+		"text": "Select Your Favorite Food",
+		"axis": "spice"
+	},
+	{
+		"id": 6,
+		"text": "Select Your Favorite Food",
+		"axis": "spice"
+	},
+
+	{
+		"id": 7,
+		"text": "Select your favorite food",
+		"axis": "sweet"
+	},
+	{
+		"id": 8,
+		"text": "Select your favorite food",
+		"axis": "sweet"
+	},
+	{
+		"id": 9,
+		"text": "Select your favorite food",
+		"axis": "sweet"
+	}
+]
