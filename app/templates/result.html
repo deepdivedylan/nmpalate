@@ -1,0 +1,47 @@
+<h2>Results</h2>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12 results-title"><h3>Your recommended food is: {{ foodName }}</h3></div>
+	</div>
+	<div class="row">
+		<div class="col-xs-6">
+			<img class="img-responsive" src="{{ foodImageUrl }}" alt="picture of food"/>
+		</div>
+		<div class="col-xs-6">
+			{{ foodDescription }}
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12"><h3>Your recommended chile is: {{ chileName }}</h3></div>
+	</div>
+	<div class="row">
+		<div class="col-xs-6">
+			<img class="img-responsive" src="{{ chileImageUrl }}" alt="picture of chile"/>
+		</div>
+		<div class="col-xs-6">
+			{{ chileDescription }}
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12"><h3>Your recommended beer is: {{beerName}}</h3></div>
+	</div>
+	<div class="row">
+		<div class="col-xs-6">
+			<img class="img-responsive" src="{{ beerImageUrl }}" alt="picture of beer"/>
+		</div>
+		<div class="col-xs-6">
+			{{ beerDescription }}
+		</div>
+	</div>
+	<div class="row">
+		<h3 class="col-md-12">Share Your Results</h3>
+	</div>
+	<div class="row share-buttons">
+		<div class="col-sm-6">
+			<a class="btn btn-lg twitter-color twitter-hashtag-button" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fnmpallete.2016.angularattack.io%2F&button_hashtag=IdealNewMexicanMeal" data-url="https://nmpallete.2016.angularattack.io/"><i class="fa fa-twitter" aria-hidden="hidden"></i> Tweet your Ideal New Mexican Meal</a>
+		</div>
+		<div class="col-sm-6">
+			<a class="btn btn-lg facebook-color" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fnmpallete.2016.angularattack.io%2F"><i class="fa fa-facebook" aria-hidden="hidden"></i> Share your your Ideal New Mexican Meal on Facebook</a>
+		</div>
+	</div>
+</div>

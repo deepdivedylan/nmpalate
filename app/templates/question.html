@@ -1,0 +1,11 @@
+<div class="row">
+	<h2>{{questionText}}</h2>
+</div>
+<div class="row skip-line">
+	<div *ngFor="let answer of answerList">
+		<div class="col-xs-6" (click)="onSelect(answer.score, currentQuestion.axis);">
+			<img class="img-responsive" src="{{answer.imageUrl}}" alt="{{answer.text}}"/>
+		</div>
+	</div>
+</div>
+
