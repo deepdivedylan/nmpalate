@@ -2,10 +2,10 @@
 	// map tells the System loader where to look for things
 	var map = {
 		"app":                        "app", // "dist",
-		// "rxjs":                       "https://npmcdn.com/rxjs",
-		// "symbol-observable":		  "https://npmcdn.com/symbol-observable",
-		"@angular":                   "https://npmcdn.com/@angular",
-		"angular2-cookie":				"https://npmcdn.com/angular2-cookie"
+		// "rxjs":                       "https://unpkg.com/rxjs",
+		// "symbol-observable":		  "https://unpkg.com/symbol-observable",
+		"@angular":                   "https://unpkg.com/@angular",
+		"angular2-cookie":				"https://unpkg.com/angular2-cookie"
 	};
 	// packages tells the System loader how to load when no filename and/or no extension
 		var packages = {
